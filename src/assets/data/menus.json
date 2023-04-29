@@ -1,0 +1,128 @@
+{
+    "lundi": {
+        "v1": {
+            "Petit-déjeuner": "Omelette aux légumes (2 œufs, 50g de poivron, 50g d'épinards, 50g de champignons) avec une tranche de pain complet grillé",
+            "Collation du matin": "150g de yaourt grec nature avec 40g de myrtilles fraîches",
+            "Déjeuner": "Salade de thon et haricots verts (150g de thon en conserve, 100g de haricots verts, tomates cerises, vinaigrette balsamique)",
+            "Goûter": "100g de Skyr/yaourt grec avec 1/2 pomme",
+            "Dîner": "Saumon grillé avec légumes rôtis (150g de saumon, 100g de brocoli, 150g de courgette, 100g de poivron)",
+            "Collation du soir": "30g de noix mélangées (amandes, noix de cajou, noisettes)"
+        },
+        "v2": {
+            "Petit-déjeuner": "Omelette aux légumes (3 œufs, ½ poivron rouge, ½ oignon, 30g de fromage râpé)",
+            "Collation du matin": "1 pomme",
+            "Déjeuner": "<a href='https://keep.google.com/#NOTE/1jc-C5-0rJl0xQhqJvrdxAxcGwlnVyJmy9bE69rZHg9CPLaTjQFnyrhI2VwslhQY' target='_blank'>Salade poulet avocat</a> (75g de quinoa, 220ml de bouillon de légumes ou poulet, 1 c.s d&apos;huile d&apos;olive, jus d&apos;1 citron, 60g Blanc de poulet coupé en petits morceaux, ½ avocat, 70g de concombre émincé, 8-10 tomates cerises coupées)",
+            "Goûter": "1 yaourt grec (150g) avec 1 poignée de fruits rouges",
+            "Dîner": "Poisson grillé (120g de saumon), 100g de brocoli vapeur, 100g de quinoa",
+            "Collation du soir": "1 tasse de lait écrémé (250ml)"
+        }
+    },
+    "mardi": {
+        "v1": {
+            "Petit-déjeuner": "Smoothie protéiné (1 banane, 120ml de lait d'amande non sucré, 70g de baies surgelées, 15g de beurre d'amande, 1 scoop de protéine en poudre) ou <a href='https://keep.google.com/#NOTE/1tbNT69UtpbOSxXMb9GwowzbJl9Wc6vfPotFu2bLSkZZk1LlsTnHjbvlHQ5kGRv0' target='_blank'>Smoothie survitaminé au Nutri-greens</a>",
+            "Collation du matin": "1 pomme",
+            "Déjeuner": "Poulet grillé avec 100g de riz brun et légumes sautés (100g de poivrons, 50g d'oignon, 50g de champignons)",
+            "Goûter": "1 barre protéinée",
+            "Dîner": "Bœuf haché grillé avec 150g de patates douces rôties et 100g de brocoli",
+            "Collation du soir": "1 portion de Night Protein"
+        },
+        "v2": {
+            "Petit-déjeuner": "40g de flocons d'avoine cuits avec 1 cuillère à soupe de beurre de cacahuète, 1 banane en rondelles et 1 cuillère à café de miel",
+            "Collation du matin": "1 yaourt grec (150g)",
+            "Déjeuner": "150g de poulet grillé, 60 grammes de riz brun, environ 150 grammes de légumes verts sautés",
+            "Goûter": "1 pomme et 1 poignée d'amandes",
+            "Dîner": "Chili de dinde (100g de dinde hachée, environ 90 grammes de haricots rouges, environ 90 grammes de tomates en dés, environ 90 grammes de poivrons, épices)",
+            "Collation du soir": "1 portion de nuit protéine shake (1 dosette dans 200ml de lait écrémé)"
+        }
+    },
+    "mercredi": {
+        "v1": {
+            "Petit-déjeuner": "Flocons d'avoine cuits dans 120ml de lait d'amande non sucré, garnis de 75g de baies et 15g de beurre d'amande",
+            "Collation du matin": "1 orange",
+            "Déjeuner": "Salade de thon et avocat (100g de thon en conserve, 50g d'avocat, laitue, 50g de tomates cerises, vinaigrette balsamique)",
+            "Goûter": "1 Yaourt avec fruits ou fruits secs",
+            "Dîner": "Poulet grillé avec 100g de chou-fleur rôti et 100g de courgettes grillées",
+            "Collation du soir": "100g de skyr/yaourt grec"
+        },
+        "v2": {
+            "Petit-déjeuner": "150g de yaourt grec avec 1 poignée de baies, 1 cuillère à soupe de graines de lin et 1 cuillère à café de miel",
+            "Collation du matin": "1 pomme",
+            "Déjeuner": "Sandwich au thon (100g de thon, 2 tranches de pain de blé entier, laitue, tomate, moutarde)",
+            "Goûter": "1 barre protéinée (20g)",
+            "Dîner": "Steak grillé (120g), 140g de patates douces rôties, 100g de légumes vapeur",
+            "Collation du soir": "1 tasse de lait écrémé (250ml)"
+        }
+    },
+    "jeudi": {
+        "v1": {
+            "Petit-déjeuner": "Toast d'avocat et œufs brouillés (1 œuf, 1 tranche de pain complet grillé, 50g d'avocat écrasé)",
+            "Collation du matin": "1 pomme",
+            "Déjeuner": "150g Saumon grillé avec 150g de patates douces rôties et 100g de brocoli",
+            "Goûter": "1 barre protéinée",
+            "Dîner": "Poulet grillé avec 100g de chou-fleur rôti et 100g de courgettes grillées",
+            "Collation du soir": "1 portion de Night Protein"
+        },
+        "v2": {
+            "Petit-déjeuner": "1 smoothie aux fruits rouges et à la banane (1 banane, environ 150 grammes de fruits rouges, 250ml de lait écrémé, 1 cuillère à soupe de graines de chia).",
+            "Collation du matin": "1 yaourt grec (150g)",
+            "Déjeuner": "Salade de poulet grillé (100g de poulet, 250g de légumes mélangés, 30g de noix, vinaigrette légère)",
+            "Goûter": "1 pomme et 1 poignée d'amandes",
+            "Dîner": "Poisson grillé (120g de saumon), 100g de brocoli vapeur, 100g de quinoa",
+            "Collation du soir": "1 portion de nuit protéine shake (1 dosette dans 200ml de lait écrémé)"
+        }
+    },
+    "vendredi": {
+        "v1": {
+            "Petit-déjeuner": "Yaourt grec nature avec 50g de granola sans sucre ajouté et 20g d'amandes",
+            "Collation du matin": "1 poire",
+            "Déjeuner": "Salade de poulet et quinoa (100g de poulet grillé, 100g de quinoa, 50g de concombre, 50g de tomates, vinaigrette légère)",
+            "Goûter": "75g de baies mélangées",
+            "Dîner": "Saumon grillé avec légumes vapeur (100g de brocoli, 100g de haricots verts)",
+            "Collation du soir": "100g de skyr/yaourt grec"
+        },
+        "v2": {
+            "Petit-déjeuner": "2 tranches de pain complet avec 2 tranches de jambon de dinde, 1 tranche de fromage allégé et des légumes frais",
+            "Collation du matin": "1 poire",
+            "Déjeuner": "Salade de thon (100g de thon en conserve, 250g de légumes mélangés, 1 cuillère à soupe de vinaigrette légère)",
+            "Goûter": "1 yaourt grec (150g) avec 1 poignée de noix de cajou",
+            "Dîner": "Poulet grillé (120g), 60g de quinoa, environ 150 grammes de légumes grillés",
+            "Collation du soir": "1 tasse de lait écrémé (250ml)"
+        }
+    },
+    "samedi": {
+        "v1": {
+            "Petit-déjeuner": "Smoothie aux épinards et protéines (100g d'épinards, 1/2 banane, 120ml de lait d'amande non sucré, 15g de beurre d'amande, 1 scoop de protéine en poudre) ou <a href='https://keep.google.com/#NOTE/1tbNT69UtpbOSxXMb9GwowzbJl9Wc6vfPotFu2bLSkZZk1LlsTnHjbvlHQ5kGRv0' target='_blank'>Smoothie survitaminé au Nutri-greens</a>",
+            "Collation du matin": "1 orange",
+            "Déjeuner": "Poulet grillé avec 100g de riz brun et légumes sautés (100g de poivrons, 50g d'oignon, 50g de champignons)",
+            "Goûter": "1 barre protéinée",
+            "Dîner": "Bœuf haché grillé avec 150g de patates douces rôties et 100g de brocoli",
+            "Collation du soir": "1 portion de Night Protein"
+        },
+        "v2": {
+            "Petit-déjeuner": "1 portion de pancakes protéinés (40g de protéine en poudre, environ 40 grammes de flocons d'avoine, 2 œufs) avec 1 cuillère à soupe de sirop d'érable",
+            "Collation du matin": "1 yaourt grec (150g)",
+            "Déjeuner": "Poisson grillé (120g), 60g de riz brun, 150g de légumes verts sautés",
+            "Goûter": "1 pomme et 1 poignée d'amandes",
+            "Dîner": "Chili de dinde (100g de dinde hachée, environ 90 grammes de haricots rouges, environ 90 grammes de tomates en dés, environ 90 grammes de poivrons, épices)",
+            "Collation du soir": "1 portion de nuit protéine shake (1 dosette dans 200ml de lait écrémé)"
+        }
+    },
+    "dimanche": {
+        "v1": {
+            "Petit-déjeuner": "Toast à l'avocat et œufs brouillés (1 œuf, 1 tranche de pain complet grillé, 50g d'avocat écrasé)",
+            "Collation du matin": "1 poignée de noix de cajou",
+            "Déjeuner": "Salade de thon et haricots rouges (100g de thon en conserve, 100g de haricots rouges, laitue, 50g de tomates cerises, vinaigrette légère)",
+            "Goûter": "1 pomme",
+            "Dîner": "150g de saumon grillé avec légumes vapeur (100g de brocoli, 100g d'asperges)",
+            "Collation du soir": "100g de skyr/yaourt grec"
+        },
+        "v2": {
+            "Petit-déjeuner": "1 omelette aux légumes (3 œufs, ½ poivron rouge, ½ oignon, 30g de fromage râpé)",
+            "Collation du matin": "1 pomme",
+            "Déjeuner": "Salade de poulet grillé (100g de poulet, 250g de légumes mélangés, 30g de noix, vinaigrette légère)",
+            "Goûter": "1 yaourt grec (150g) avec 1 poignée de fruits rouges",
+            "Dîner": "Steak grillé (120g), 140g de patates douces rôties, 100g de légumes vapeur",
+            "Collation du soir": "1 tasse de lait écrémé (250ml)"
+        }
+    }
+}
