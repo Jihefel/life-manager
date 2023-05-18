@@ -154,11 +154,11 @@ export default function App() {
             }
           >
             <Route
-              path='dashboard'
+              path='/dashboard'
               element={<Dashboard theme={theme.palette.mode} />}
             />
             <Route
-              path='repas'
+              path='/repas'
               element={
                 <Repas
                   theme={theme.palette.mode}
@@ -168,7 +168,7 @@ export default function App() {
               }
             />
             <Route
-              path='listedecourses'
+              path='/listedecourses'
               element={<ShoppingList />}
             />
             <Route
@@ -176,11 +176,11 @@ export default function App() {
               element={<Entrainements />}
             />
             <Route
-              path='rappels'
+              path='/rappels'
               element={<Rappels getDate={getDate} />}
             />
             <Route
-              path='tasks'
+              path='/tasks'
               element={<Tasks />}
             />
           </Route>
