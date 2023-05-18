@@ -1,0 +1,14 @@
+[
+    {
+        "hour": 10,
+        "minute": 30,
+        "title": "Notification 1",
+        "body": "Corps de la notification 1"
+    },
+    {
+        "hour": 14,
+        "minute": 16,
+        "title": "Notification 2",
+        "body": "Corps de la notification 2"
+    }
+]

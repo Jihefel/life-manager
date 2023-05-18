@@ -1,0 +1,100 @@
+import { useSelector } from "react-redux";
+import menu from "../assets/data/menus.json";
+import { useState, useEffect } from "react";
+import { List, ListItem, ListItemButton, ListItemText } from "@mui/material";
+
+function Dashboard(props) {
+  const jourActuel = useSelector((state) => state.whatDate.today);
+  const heureActuelle = useSelector((state) => state.whatDate.hour);
+  const minuteActuelle = useSelector((state) => state.whatDate.minute);
+  const sortedCheckedIngredients = useSelector((state) => state.selectedIngredients.sortedCheckedIngredients)
+
+  const [periodeRepas, setPeriodeRepas] = useState(null);
+  const [repasActuel, setRepasActuel] = useState(null);
+
+  useEffect(() => {
+    const periodesDesRepas = Object.keys(menu[jourActuel].v1);
+    const collationAujourdhui = periodesDesRepas[1] === "Collation du matin";
+
+    switch (true) {
+      // Petit-dejeuner
+      case heureActuelle >= 7 && heureActuelle <= 10:
+        setPeriodeRepas(periodesDesRepas[0]);
+        break;
+      // Collation du matin
+      case collationAujourdhui && heureActuelle > 10 && heureActuelle <= 12 && minuteActuelle < 30:
+        setPeriodeRepas(periodesDesRepas[1]);
+        break;
+      // Déjeuner
+      case ((heureActuelle >= 12 && minuteActuelle <= 30) || (heureActuelle >= 12))  && (heureActuelle < 15 || (heureActuelle === 15 && minuteActuelle < 30)):
+        collationAujourdhui ? setPeriodeRepas(periodesDesRepas[2]) : setPeriodeRepas(periodesDesRepas[1]);
+        break;
+      // Goûter
+      case ((heureActuelle >= 15 && minuteActuelle <= 30) || (heureActuelle >= 15)) && (heureActuelle < 20 || (heureActuelle === 20 && minuteActuelle < 30)):
+        collationAujourdhui ? setPeriodeRepas(periodesDesRepas[3]) : setPeriodeRepas(periodesDesRepas[2]);
+        break;
+      // Dîner
+      case ((heureActuelle >= 20 && minuteActuelle <= 30) || (heureActuelle >= 20)) && (heureActuelle < 23):
+        collationAujourdhui ? setPeriodeRepas(periodesDesRepas[4]) : setPeriodeRepas(periodesDesRepas[3]);
+        break;
+      // Collation du soir
+      case (heureActuelle >= 23) || (heureActuelle < 7):
+        collationAujourdhui ? setPeriodeRepas(periodesDesRepas[5]) : setPeriodeRepas(periodesDesRepas[4]);
+        break;
+
+      default:
+        console.log(heureActuelle, minuteActuelle);
+        break;
+    }
+  }, [minuteActuelle]);
+
+  useEffect(() => {
+    if (periodeRepas) setRepasActuel(Object.entries(menu[jourActuel].v1).find((repas) => repas[0] === periodeRepas));
+  }, [periodeRepas]);
+
+
+  return (
+    <div className='grid md:grid-rows-3 md:grid-flow-col gap-md-4 gap-2 p-md-5 py-3 px-1'>
+      <div className={`row-span-3 p-md-5 p-3 rounded-lg shadow-lg ${props.theme === "dark" ? "border" : ""}`}>
+        <h1 className="py-3 pt-md-0 text-sm">{periodeRepas ? periodeRepas : null}</h1>
+        {repasActuel ? (
+          <>
+            <h2 className="mb-3">{repasActuel[1].titre}</h2>
+            <h3 className='text-xl text-slate-400 underline'>Ingrédients</h3>
+            <ul>
+              {repasActuel[1].ingredients.map((ingr, index) => (
+                <li key={index + ingr.nom}>
+                  <span className='text-slate-500'>{ingr.quantite}</span>{" "}
+                  {ingr.nom === "Asperges" ? (
+                    <>
+                      <img
+                        src='https://img.icons8.com/color/48/null/asparagus.png'
+                        style={{ height: "1.1rem", width: "1.3rem" }}
+                        alt='Asperges'
+                      />
+                      <span>&thinsp;Asperges</span>
+                    </>
+                  ) : (
+                    ingr.nom
+                  )}
+                </li>
+              ))}
+            </ul>
+            <h3 className='text-xl text-slate-400 underline'>Instructions</h3>
+            <ol>
+              {repasActuel[1].instructions.map((etape, index) => (
+                <li key={index}>{etape}</li>
+              ))}
+            </ol>
+          </>
+        ) : null}
+      </div>
+      <div className={`col-span-2 p-md-4 p-3 rounded-lg shadow-lg ${props.theme === "dark" ? "border" : ""}`}>Entraînement du jour</div>
+      <div className='row-span-2 col-span-2 bg-pink-400'>
+      03
+      </div>
+    </div>
+  );
+}
+
+export default Dashboard;

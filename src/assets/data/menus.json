@@ -1,34 +1,473 @@
 {
     "lundi": {
         "v1": {
-            "Petit-déjeuner": "Omelette aux légumes (2 œufs, 50g de poivron, 50g d'épinards, 50g de champignons) avec une tranche de pain complet grillé",
-            "Collation du matin": "150g de yaourt grec nature avec 40g de myrtilles fraîches",
-            "Déjeuner": "Salade de thon et haricots verts (150g de thon en conserve, 100g de haricots verts, tomates cerises, vinaigrette balsamique)",
-            "Goûter": "100g de Skyr/yaourt grec avec 1/2 pomme",
-            "Dîner": "Saumon grillé avec légumes rôtis (150g de saumon, 100g de brocoli, 150g de courgette, 100g de poivron)",
-            "Collation du soir": "30g de noix mélangées (amandes, noix de cajou, noisettes)"
+            "Petit-déjeuner": {
+                "titre": "🥤 Smoothie aux fruits",
+                "ingredients": [
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🍓 Fraises",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "100ml"
+                    },
+                    {
+                        "nom": "🥄 Poudre de protéine (saveur au choix)",
+                        "quantite": "1 mesure"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillères à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Placez tous les ingrédients dans un mixeur.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Servez frais."
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🥗 Salade de poulet et quinoa",
+                "ingredients": [
+                    {
+                        "nom": "🍗 Filet de poulet",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌾 Boulgour cuit",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥬 Laitue",
+                        "quantite": "50g"
+                    },
+                    {
+                        "nom": "🍅 Tomates cerises",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥒 Concombre",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧴 Vinaigrette légère",
+                        "quantite": "2 cuillères à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Coupez le poulet grillé en dés.",
+                    "Dans un saladier, mélangez le poulet, le quinoa, la laitue, les tomates cerises et le concombre.",
+                    "Ajoutez la vinaigrette légère et mélangez bien.",
+                    "Servez frais."
+                ]
+            },
+            "Goûter": {
+                "titre": "🥣 Porridge",
+                "ingredients": [
+                    {
+                        "nom": "🥄 Poudre de protéine (saveur au choix)",
+                        "quantite": "1 mesure"
+                    },
+                    {
+                        "nom": "🥣 Brinta",
+                        "quantite": "35g"
+                    },
+                    {
+                        "nom": "🥥 Noix de coco rapée",
+                        "quantite": "1 cuillères à soupe"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "0.33 cuillère à soupe (1 c.c.)"
+                    },
+                    {
+                        "nom": "🍇 Brunoise de fruits",
+                        "quantite": "50g"
+                    },
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "10g"
+                    }
+                ],
+                "instructions": [
+                    "Dans un bol, mélangez la poudre de protéine, les flocons d'avoine, le beurre d'arachide, le miel et les pépites de chocolat.",
+                    "Ajoutez progressivement le lait d'amande tout en mélangeant jusqu'à obtenir une pâte.",
+                    "Formez des barres avec la pâte et saupoudrez d'amandes hachées.",
+                    "Placez au réfrigérateur pendant au moins 1 heure pour qu'elles durcissent.",
+                    "Dégustez comme collation."
+                ]
+            },
+            "Dîner": {
+                "titre": "🐟 Saumon grillé avec légumes",
+                "ingredients": [
+                    {
+                        "nom": "🐟 Filet de saumon",
+                        "quantite": "120g"
+                    },
+                    {
+                        "nom": "Asperges",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥒 Courgette",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🫑 Poivron rouge",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "1 cuillères à soupe"
+                    },
+                    {
+                        "nom": "🍋 Citron",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🌿 Herbes de Provence",
+                        "quantite": "1 cuillères à café"
+                    }
+                ],
+                "instructions": [
+                    "Coupez les légumes en morceaux.",
+                    "Assaisonnez le saumon avec l'huile d'olive, le jus de citron et les herbes de Provence.",
+                    "Grillez le saumon et les légumes jusqu'à ce qu'ils soient tendres.",
+                    "Servez chaud."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🍶 Skyr banane",
+                "ingredients": [
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "𓇢 Graines de chia",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🟤 Pépites de chocolat",
+                        "quantite": "10g"
+                    }
+                ]
+            }
         },
         "v2": {
-            "Petit-déjeuner": "Omelette aux légumes (3 œufs, ½ poivron rouge, ½ oignon, 30g de fromage râpé)",
-            "Collation du matin": "1 pomme",
-            "Déjeuner": "<a href='https://keep.google.com/#NOTE/1jc-C5-0rJl0xQhqJvrdxAxcGwlnVyJmy9bE69rZHg9CPLaTjQFnyrhI2VwslhQY' target='_blank'>Salade poulet avocat</a> (75g de quinoa, 220ml de bouillon de légumes ou poulet, 1 c.s d&apos;huile d&apos;olive, jus d&apos;1 citron, 60g Blanc de poulet coupé en petits morceaux, ½ avocat, 70g de concombre émincé, 8-10 tomates cerises coupées)",
-            "Goûter": "1 yaourt grec (150g) avec 1 poignée de fruits rouges",
-            "Dîner": "Poisson grillé (120g de saumon), 100g de brocoli vapeur, 100g de quinoa",
-            "Collation du soir": "1 tasse de lait écrémé (250ml)"
+            "Petit-déjeuner": {
+                "titre": "Omelette aux légumes (3 œufs, ½ poivron rouge, ½ oignon, 30g de fromage râpé)",
+                "ingredients": [
+                    {
+                        "nom": "🥚 Œufs",
+                        "quantite": "3"
+                    },
+                    {
+                        "nom": "🫑 poivron rouge",
+                        "quantite": "80g"
+                    },
+                    {
+                        "nom": "oignon",
+                        "quantite": "½"
+                    },
+                    {
+                        "nom": "fromage râpé",
+                        "quantite": "30g"
+                    }
+                ],
+                "instructions": [
+                    "Battre les œufs dans un bol.",
+                    "Couper le poivron rouge et l'oignon en petits morceaux.",
+                    "Faire chauffer une poêle antiadhésive à feu moyen et y ajouter le poivron rouge et l'oignon. Cuire pendant quelques minutes jusqu'à ce qu'ils soient tendres.",
+                    "Verser les œufs battus sur les légumes dans la poêle.",
+                    "Laisser cuire l'omelette pendant quelques minutes jusqu'à ce qu'elle soit bien cuite.",
+                    "Saupoudrer le fromage râpé sur l'omelette.",
+                    "Laisser le fromage fondre légèrement.",
+                    "Servir l'omelette aux légumes."
+                ]
+            },
+            "Collation du matin": {
+                "titre": "1 shaker et 1 banane",
+                "ingredients": [
+                    {
+                        "nom": "Protéines",
+                        "quantite": "25g"
+                    },
+                    {
+                        "nom": "banane",
+                        "quantite": "1"
+                    }
+                ]
+            },
+            "Déjeuner": {
+                "titre": "<a href='https://keep.google.com/#NOTE/1jc-C5-0rJl0xQhqJvrdxAxcGwlnVyJmy9bE69rZHg9CPLaTjQFnyrhI2VwslhQY' target='_blank'>Salade poulet avocat</a> (75g de quinoa, 220ml de bouillon de légumes ou poulet, 1 c.s d&apos;huile d&apos;olive, jus d&apos;1 citron, 60g Blanc de poulet coupé en petits morceaux, ½ avocat, 70g de concombre émincé, 8-10 tomates cerises coupées)",
+                "ingredients": [
+                    {
+                        "nom": "quinoa",
+                        "quantite": "75g"
+                    },
+                    {
+                        "nom": "bouillon de légumes ou poulet",
+                        "quantite": "220ml"
+                    },
+                    {
+                        "nom": "huile d'olive",
+                        "quantite": "1 c.s."
+                    },
+                    {
+                        "nom": "citron",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "blanc de poulet",
+                        "quantite": "60g"
+                    },
+                    {
+                        "nom": "avocat",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "concombre",
+                        "quantite": "70g"
+                    },
+                    {
+                        "nom": "Tomates cerises",
+                        "quantite": "100g"
+                    }
+                ],
+                "instructions": [
+                    "Faire cuire votre poulet, soit au four à 190° pendant 20 minutes soit frit dans une poêle avec de l’huile de coco.",
+                    "Faire bouillir de l’eau dans une casserole et ajouter le quinoa (le temps indiqué sur l’emballage)",
+                    "Quand le quinoa est prêt, égouttez le, puis ajouter l’huile d’olive et le jus de citron. Laisser refroidir.",
+                    "Quand tout est prêt et refroidi, ajouter et mélanger le reste des ingrédients, puis diviser le tout en deux portions"
+                ]
+            },
+            "Goûter": {
+                "titre": "1 Skyr (150g) avec 1 poignée de fruits rouges",
+                "ingredients": [
+                    {
+                        "nom": "Skyr",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🫐 Fruits rouges",
+                        "quantite": "40g"
+                    }
+                ]
+            },
+            "Dîner": {
+                "titre": "Poisson grillé (120g de saumon), 100g de brocoli vapeur, 100g de quinoa",
+                "ingredients": [
+                    {
+                        "nom": "Saumon",
+                        "quantite": "120g"
+                    },
+                    {
+                        "nom": "Brocoli",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "Quinoa",
+                        "quantite": "100g"
+                    }
+                ],
+                "instructions": [
+                    "Préchauffez le gril à feu moyen.",
+                    "Assaisonnez le saumon avec du sel et du poivre selon votre goût.",
+                    "Placez le saumon sur une grille de cuisson préalablement huilée et faites-le griller pendant environ 4 à 5 minutes de chaque côté, jusqu'à ce qu'il soit bien cuit.",
+                    "Pendant ce temps, faites cuire le brocoli à la vapeur pendant environ 5 minutes, jusqu'à ce qu'il soit tendre mais encore croquant.",
+                    "Dans une casserole séparée, faites cuire le quinoa selon les instructions sur l'emballage.",
+                    "Servez le saumon grillé avec le brocoli vapeur et le quinoa cuit. Vous pouvez ajouter des épices ou des sauces supplémentaires selon votre préférence."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "1 tasse de lait écrémé (250ml)",
+                "ingredients": [
+                    {
+                        "nom": "lait",
+                        "quantite": "250ml"
+                    }
+                ]
+            }
         }
     },
     "mardi": {
         "v1": {
-            "Petit-déjeuner": "Smoothie protéiné (1 banane, 120ml de lait d'amande non sucré, 70g de baies surgelées, 15g de beurre d'amande, 1 scoop de protéine en poudre) ou <a href='https://keep.google.com/#NOTE/1tbNT69UtpbOSxXMb9GwowzbJl9Wc6vfPotFu2bLSkZZk1LlsTnHjbvlHQ5kGRv0' target='_blank'>Smoothie survitaminé au Nutri-greens</a>",
-            "Collation du matin": "1 pomme",
-            "Déjeuner": "Poulet grillé avec 100g de riz brun et légumes sautés (100g de poivrons, 50g d'oignon, 50g de champignons)",
-            "Goûter": "1 barre protéinée",
-            "Dîner": "Bœuf haché grillé avec 150g de patates douces rôties et 100g de brocoli",
-            "Collation du soir": "1 portion de Night Protein"
+            "Petit-déjeuner": {
+                "titre": "🥤 Smoothie énergisant",
+                "ingredients": [
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🥣 Flocons d'avoine",
+                        "quantite": "30g"
+                    },
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🥄 Poudre de protéine (saveur au choix)",
+                        "quantite": "1 dose"
+                    },
+                    {
+                        "nom": "🧈 Beurre d'amande",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Dans un mixeur, combinez la banane, les flocons d'avoine, le lait d'amande, la protéine en poudre et le beurre d'amande.",
+                    "Mixez jusqu'à obtenir une consistance lisse.",
+                    "Ajoutez de la glace pilée et mélangez à nouveau.",
+                    "Versez dans un verre et dégustez."
+                ]
+            },
+            "Collation du matin": {
+                "titre": "🍶 Skyr aux fruits et amandes",
+                "ingredients": [
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🍇 Brunoise de fruits",
+                        "quantite": "50g"
+                    },
+                    {
+                        "nom": "🌰 Noix du Brésil",
+                        "quantite": "15g"
+                    }
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🍛 Porc et patate douce",
+                "ingredients": [
+                    {
+                        "nom": "🐷 Porc",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🍠 Patates douces",
+                        "quantite": "130g"
+                    },
+                    {
+                        "nom": "🥦 Brocoli",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🧅 Oignon",
+                        "quantite": "1/4"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "2 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Préchauffer le four à 200°C.",
+                    "Dans un plat allant au four, mélanger le porc, les cubes de patate douce, le brocoli et l'oignon rouge.",
+                    "Arroser d'huile d'olive et saupoudrer de paprika et de poivre noir. Bien mélanger.",
+                    "Enfourner pendant 25 minutes, en remuant toutes les 10 minutes pour que les ingrédients soient bien dorés.",
+                    "Servir chaud."
+                ]
+            },
+            "Goûter": {
+                "titre": "🍶 Skyr aux fruits rouges",
+                "ingredients": [
+                  {
+                    "nom": "🍶 Skyr",
+                    "quantite": "100g"
+                  },
+                  {
+                    "nom": "🫐 Fruits rouges",
+                    "quantite": "100g"
+                  },
+                  {
+                    "nom": "🍯 Miel",
+                    "quantite": "0.33 cuillère à soupe (1 c.c.)"
+                  },
+                  {
+                    "nom": "🌰 Amandes",
+                    "quantite": "15g"
+                  }
+                ],
+                "instructions": [
+                  "Dans un bol, mélanger le fromage blanc avec les fruits rouges.",
+                  "Ajouter une cuillère à café de miel pour sucrer légèrement.",
+                  "Mélanger délicatement.",
+                  "Déguster frais."
+                ]
+            },
+            "Dîner": {
+                "titre": "🐟 Saumon, riz, asperges",
+                "ingredients": [
+                  {
+                    "nom": "🐟 Filet de saumon",
+                    "quantite": "120g"
+                  },
+                  {
+                    "nom": "🍚 Riz",
+                    "quantite": "60g"
+                  },
+                  {
+                    "nom": "Asperges",
+                    "quantite": "100g"
+                  },
+                  {
+                    "nom": "🧴 Huile d'olive",
+                    "quantite": "2 cuillère à soupe"
+                  },
+                  {
+                    "nom": "🍋 Citron",
+                    "quantite": "1/2"
+                  }
+                ],
+                "instructions": [
+                  "Préchauffer le four à 200°C.",
+                  "Cuire le riz",
+                  "Placer le saumon et les asperges sur une plaque de cuisson recouverte de papier sulfurisé.",
+                  "Arroser d'huile d'olive, de jus de citron, de sel et de poivre.",
+                  "Cuire au four pendant environ 15-20 minutes, ou jusqu'à ce que le saumon soit cuit à votre goût.",
+                  "Servir chaud."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🥤 Prozis Night Protein",
+                "ingredients": [
+                    {
+                        "nom": "🥄 Prozis Night Protein",
+                        "quantite": "1 mesure"
+                    }
+                ],
+                "instructions": [
+                    "Mélanger 40g de Night Protein Prozis avec 300ml d'eau ou de lait écrémé.",
+                    "Bien remuer jusqu'à obtenir une boisson homogène.",
+                    "Déguster immédiatement."
+                  ]
+            }
         },
         "v2": {
             "Petit-déjeuner": "40g de flocons d'avoine cuits avec 1 cuillère à soupe de beurre de cacahuète, 1 banane en rondelles et 1 cuillère à café de miel",
-            "Collation du matin": "1 yaourt grec (150g)",
+            "Collation du matin": "1 Skyr (150g)",
             "Déjeuner": "150g de poulet grillé, 60 grammes de riz brun, environ 150 grammes de légumes verts sautés",
             "Goûter": "1 pomme et 1 poignée d'amandes",
             "Dîner": "Chili de dinde (100g de dinde hachée, environ 90 grammes de haricots rouges, environ 90 grammes de tomates en dés, environ 90 grammes de poivrons, épices)",
@@ -37,15 +476,153 @@
     },
     "mercredi": {
         "v1": {
-            "Petit-déjeuner": "Flocons d'avoine cuits dans 120ml de lait d'amande non sucré, garnis de 75g de baies et 15g de beurre d'amande",
-            "Collation du matin": "1 orange",
-            "Déjeuner": "Salade de thon et avocat (100g de thon en conserve, 50g d'avocat, laitue, 50g de tomates cerises, vinaigrette balsamique)",
-            "Goûter": "1 Yaourt avec fruits ou fruits secs",
-            "Dîner": "Poulet grillé avec 100g de chou-fleur rôti et 100g de courgettes grillées",
-            "Collation du soir": "100g de skyr/yaourt grec"
+            "Petit-déjeuner": {
+                "titre": "🥞 Pancakes protéinés",
+                "ingredients": [
+                    {
+                        "nom": "🥄 Poudre de pancakes au collagène Prozis",
+                        "quantite": "2 mesures"
+                    },
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Mélangez tous les ingrédients dans un bol jusqu'à obtenir une pâte lisse.",
+                    "Faites chauffer une poêle antiadhésive et versez-y la pâte à pancakes en formant des petits cercles.",
+                    "Faites cuire les pancakes jusqu'à ce qu'ils soient dorés des deux côtés.",
+                    "Servez les pancakes chauds avec un peu de miel."
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🥗 Bol de quinoa, légumes et poulet",
+                "ingredients": [
+                    {
+                        "nom": "🍗 Filet de poulet",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌾 Boulgour cuit",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥬 Laitue",
+                        "quantite": "50g"
+                    },
+                    {
+                        "nom": "🥒 Concombre",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🫑 Poivron rouge",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧴 Vinaigrette légère",
+                        "quantite": "2 cuillères à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Coupez le filet de poulet grillé en dés.",
+                    "Préparez un bol avec le quinoa cuit comme base.",
+                    "Ajoutez le poulet, la laitue, le concombre et le poivron rouge coupés en morceaux.",
+                    "Arrosez de vinaigrette légère et mélangez bien.",
+                    "Servez frais."
+                ]
+            },
+            "Goûter": {
+                "titre": "🥤 Smoothie aux baies et aux amandes",
+                "ingredients": [
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🫐 Fruits rouges",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "25g"
+                    },
+
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur fruits rouges)",
+                        "quantite": "1 mesure"
+                    }
+                ],
+                "instructions": [
+                    "Placez tous les ingrédients dans un mixeur.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Servez frais."
+                ]
+            },
+            "Dîner": {
+                "titre": "🌮 Tacos au poisson",
+                "ingredients": [
+                    {
+                        "nom": "🐟 Filet de poisson blanc",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌕 Tortillas de maïs",
+                        "quantite": "2"
+                    },
+                    {
+                        "nom": "🥬 Chou rouge",
+                        "quantite": "1/4"
+                    },
+                    {
+                        "nom": "🥕 Carottes",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🥑 Avocat",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron vert",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🌿 Coriandre fraîche",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Cuisez le filet de poisson à la vapeur ou au four jusqu'à ce qu'il soit bien cuit.",
+                    "Écrasez l'avocat avec le jus de citron vert pour préparer une guacamole.",
+                    "Râpez les carottes et émincez le chou rouge.",
+                    "Faites réchauffer les tortillas de maïs.",
+                    "Garnissez les tortillas avec le poisson cuit, la guacamole, les carottes râpées, le chou rouge et la coriandre fraîche.",
+                    "Enroulez les tacos et servez-les chauds."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🍶 Skyr aux noix",
+                "ingredients": [
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌰 Mélange de noix",
+                        "quantite": "25g"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ]
+            }
         },
         "v2": {
-            "Petit-déjeuner": "150g de yaourt grec avec 1 poignée de baies, 1 cuillère à soupe de graines de lin et 1 cuillère à café de miel",
+            "Petit-déjeuner": "150g de Skyr avec 1 poignée de baies, 1 cuillère à soupe de graines de lin et 1 cuillère à café de miel",
             "Collation du matin": "1 pomme",
             "Déjeuner": "Sandwich au thon (100g de thon, 2 tranches de pain de blé entier, laitue, tomate, moutarde)",
             "Goûter": "1 barre protéinée (20g)",
@@ -55,16 +632,181 @@
     },
     "jeudi": {
         "v1": {
-            "Petit-déjeuner": "Toast d'avocat et œufs brouillés (1 œuf, 1 tranche de pain complet grillé, 50g d'avocat écrasé)",
-            "Collation du matin": "1 pomme",
-            "Déjeuner": "150g Saumon grillé avec 150g de patates douces rôties et 100g de brocoli",
-            "Goûter": "1 barre protéinée",
-            "Dîner": "Poulet grillé avec 100g de chou-fleur rôti et 100g de courgettes grillées",
-            "Collation du soir": "1 portion de Night Protein"
+            "Petit-déjeuner": {
+                "titre": "🥤 Bol de smoothie aux fruits",
+                "ingredients": [
+                    {
+                        "nom": "🍇 Brunoise de fruits",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🥣 Flocons d'avoine",
+                        "quantite": "30g"
+                    },
+                    {
+                        "nom": "🥄 Poudre de protéine (saveur au choix)",
+                        "quantite": "1 mesure"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Placez tous les ingrédients dans un mixeur.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Versez le smoothie dans un bol.",
+                    "Garnissez de fruits frais et de flocons d'avoine.",
+                    "Servez frais."
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🥗 Salade de quinoa, lardons et légumes",
+                "ingredients": [
+                    {
+                        "nom": "🌾 Quinoa cuit",
+                        "quantite": "180g"
+                    },
+                    {
+                        "nom": "🥒 Concombre",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🍅 Tomates cerises",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🫑 Poivron jaune",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🥓 Lardons",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🫒 Olives noires",
+                        "quantite": "10"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🌿 Persil frais",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Préparez tous les légumes en les coupant en dés.",
+                    "Mélangez le quinoa cuit avec les légumes dans un bol.",
+                    "Ajoutez les olives noires.",
+                    "Arrosez de jus de citron et d'huile d'olive.",
+                    "Garnissez de persil frais.",
+                    "Mélangez bien tous les ingrédients avant de déguster."
+                ]
+            },
+            "Goûter": {
+                "titre": "🥤 Smoothie protéiné aux amandes",
+                "ingredients": [
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "20g"
+                    },
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🥄 Poudre de protéine (saveur au choix)",
+                        "quantite": "1 mesure"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Placez tous les ingrédients dans un mixeur.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Servez frais."
+                ]
+            },
+            "Dîner": {
+                "titre": "🐟 Saumon grillé avec légumes rôtis",
+                "ingredients": [
+                    {
+                        "nom": "🐟 Filet de saumon",
+                        "quantite": "120g"
+                    },
+                    {
+                        "nom": "🥒 Courgette",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🍆 Aubergine",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🫑 Poivron jaune",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🧄 Ail",
+                        "quantite": "2 gousses"
+                    },
+                    {
+                        "nom": "🌿 Herbes de Provence",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Préchauffez le four à 200°C.",
+                    "Assaisonnez le filet de saumon avec du sel, du poivre, du jus de citron et des herbes de Provence.",
+                    "Coupez les légumes en morceaux et placez-les dans un plat allant au four.",
+                    "Arrosez les légumes d'huile d'olive et ajoutez l'ail émincé.",
+                    "Placez le filet de saumon sur les légumes.",
+                    "Enfournez pendant environ 20 minutes ou jusqu'à ce que le saumon soit cuit et les légumes soient dorés.",
+                    "Servez chaud."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🥤 Prozis Night Protein",
+                "ingredients": [
+                    {
+                        "nom": "🥄 Prozis Night Protein",
+                        "quantite": "1 mesure"
+                    }
+                ],
+                "instructions": [
+                    "Mélanger 40g de Night Protein Prozis avec 300ml d'eau ou de lait écrémé.",
+                    "Bien remuer jusqu'à obtenir une boisson homogène.",
+                    "Déguster immédiatement."
+                  ]
+            }
         },
         "v2": {
             "Petit-déjeuner": "1 smoothie aux fruits rouges et à la banane (1 banane, environ 150 grammes de fruits rouges, 250ml de lait écrémé, 1 cuillère à soupe de graines de chia).",
-            "Collation du matin": "1 yaourt grec (150g)",
+            "Collation du matin": "1 Skyr (150g)",
             "Déjeuner": "Salade de poulet grillé (100g de poulet, 250g de légumes mélangés, 30g de noix, vinaigrette légère)",
             "Goûter": "1 pomme et 1 poignée d'amandes",
             "Dîner": "Poisson grillé (120g de saumon), 100g de brocoli vapeur, 100g de quinoa",
@@ -73,34 +815,390 @@
     },
     "vendredi": {
         "v1": {
-            "Petit-déjeuner": "Yaourt grec nature avec 50g de granola sans sucre ajouté et 20g d'amandes",
-            "Collation du matin": "1 poire",
-            "Déjeuner": "Salade de poulet et quinoa (100g de poulet grillé, 100g de quinoa, 50g de concombre, 50g de tomates, vinaigrette légère)",
-            "Goûter": "75g de baies mélangées",
-            "Dîner": "Saumon grillé avec légumes vapeur (100g de brocoli, 100g de haricots verts)",
-            "Collation du soir": "100g de skyr/yaourt grec"
+            "Petit-déjeuner": {
+                "titre": "🥤 Smoothie protéiné",
+                "ingredients": [
+                    {
+                        "nom": "🍇 Brunoise de fruits",
+                        "quantite": "40g"
+                    },
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200 ml"
+                    },
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur vanille)",
+                        "quantite": "1 portion"
+                    },
+                    {
+                        "nom": "🥣 Flocons d'avoine",
+                        "quantite": "30 g"
+                    }
+                ],
+                "instructions": [
+                    "Dans un blender, ajoutez la banane coupée en morceaux.",
+                    "Ajoutez le lait d'amande, la protéine en poudre et les flocons d'avoine.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Versez le smoothie dans un verre et dégustez-le."
+                ]
+            },
+            "Collation du matin": {
+                "titre": "🍶 Skyr aux fruits et aux noix",
+                "ingredients": [
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "150 g"
+                    },
+                    {
+                        "nom": "🥭 Fruits frais",
+                        "quantite": "100 g"
+                    },
+                    {
+                        "nom": "🌰 Mélange de noix",
+                        "quantite": "20 g"
+                    }
+                ],
+                "instructions": [
+                    "Dans un bol, ajoutez le Skyr.",
+                    "Ajoutez les fruits frais coupés (morceaux de mangue, tranches de kiwi) sur le yaourt.",
+                    "Ajoutez les noix concassées (amandes, noix de cajou) sur les fruits.",
+                    "Arrosez le tout d'une cuillère à café de miel.",
+                    "Mélangez délicatement tous les ingrédients.",
+                    "Dégustez ce Skyr aux fruits et aux noix en guise de collation riche en protéines et en saveurs."
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🥗 Salade de quinoa et poulet",
+                "ingredients": [
+                    {
+                        "nom": "🌾 Boulgour cuit",
+                        "quantite": "150 g"
+                    },
+                    {
+                        "nom": "🍗 Filet de poulet",
+                        "quantite": "150 g"
+                    },
+                    {
+                        "nom": "🥒 Concombre",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🍅 Tomate",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🫒 Olives noires",
+                        "quantite": "10"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Dans un bol, mélangez le quinoa cuit avec le blanc de poulet coupé en dés.",
+                    "Ajoutez le concombre coupé en tranches, la tomate coupée en dés, les olives noires et la feta émiettée.",
+                    "Arrosez la salade avec le jus de citron et l'huile d'olive.",
+                    "Mélangez tous les ingrédients jusqu'à ce qu'ils soient bien enrobés de la vinaigrette.",
+                    "Dégustez cette savoureuse salade de quinoa et poulet qui vous apportera des protéines, des légumes et des saveurs fraîches."
+                ]
+            },
+            "Goûter": {
+                "titre": "🥤 Smoothie aux fruits et protéines",
+                "ingredients": [
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "100 ml"
+                    },
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur fruits rouges)",
+                        "quantite": "1 portion"
+                    },
+                    {
+                        "nom": "🫐 Fruits rouges",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "20g"
+                    }
+                ],
+                "instructions": [
+                    "Dans un blender, versez le lait d'amande.",
+                    "Ajoutez la protéine en poudre, les fruits rouges congelés et la banane coupée en morceaux.",
+                    "Mixez jusqu'à obtenir une consistance lisse et onctueuse.",
+                    "Versez le smoothie dans un verre et garnissez-le d'amandes concassées.",
+                    "Dégustez ce smoothie aux fruits et protéines qui vous apportera de l'énergie et des nutriments essentiels pour soutenir votre entraînement."
+                ]
+            },
+            "Dîner": {
+                "titre": "🥩 Steak de bœuf avec légumes rôtis",
+                "ingredients": [
+                    {
+                        "nom": "🥩 Steak de bœuf",
+                        "quantite": "200g"
+                    },
+                    {
+                        "nom": "🥦 Brocoli",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🫑 Poivron rouge",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🥒 Courgette",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧅 Oignon",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "2 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron",
+                        "quantite": "2 cuillères à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Préchauffez le four à 200°C.",
+                    "Dans une poêle, faites chauffer l'huile d'olive à feu moyen.",
+                    "Ajoutez le steak de bœuf et faites-le cuire selon votre préférence (saignant, à point, bien cuit).",
+                    "Pendant ce temps, préparez les légumes rôtis. Coupez le brocoli en petits bouquets, le poivron rouge en lanières, la courgette en rondelles et l'oignon en tranches minces.",
+                    "Placez les légumes sur une plaque de cuisson recouverte de papier sulfurisé. Arrosez-les d'huile d'olive, de sel, de poivre et de jus de citron. Mélangez bien pour enrober les légumes d'assaisonnement.",
+                    "Enfournez la plaque de légumes dans le four préchauffé et faites cuire pendant environ 15 à 20 minutes, jusqu'à ce que les légumes soient tendres et légèrement dorés.",
+                    "Laissez reposer le steak de bœuf pendant quelques minutes, puis tranchez-le en fines tranches.",
+                    "Servez le steak de bœuf avec les légumes rôtis pour un dîner savoureux et équilibré."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🥤 Smoothie à la banane et aux amandes",
+                "ingredients": [
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200 ml"
+                    },
+                    {
+                        "nom": "🧈 Beurre d'amande",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "𓇢 Graines de chia",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Dans un blender, ajoutez la banane coupée en morceaux.",
+                    "Ajoutez le lait d'amande, le beurre d'amande et les graines de chia.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Versez le smoothie dans un verre et dégustez-le comme collation légère avant de vous coucher."
+                ]
+            }
         },
         "v2": {
             "Petit-déjeuner": "2 tranches de pain complet avec 2 tranches de jambon de dinde, 1 tranche de fromage allégé et des légumes frais",
             "Collation du matin": "1 poire",
             "Déjeuner": "Salade de thon (100g de thon en conserve, 250g de légumes mélangés, 1 cuillère à soupe de vinaigrette légère)",
-            "Goûter": "1 yaourt grec (150g) avec 1 poignée de noix de cajou",
+            "Goûter": "1 Skyr (150g) avec 1 poignée de noix de cajou",
             "Dîner": "Poulet grillé (120g), 60g de quinoa, environ 150 grammes de légumes grillés",
             "Collation du soir": "1 tasse de lait écrémé (250ml)"
         }
     },
     "samedi": {
         "v1": {
-            "Petit-déjeuner": "Smoothie aux épinards et protéines (100g d'épinards, 1/2 banane, 120ml de lait d'amande non sucré, 15g de beurre d'amande, 1 scoop de protéine en poudre) ou <a href='https://keep.google.com/#NOTE/1tbNT69UtpbOSxXMb9GwowzbJl9Wc6vfPotFu2bLSkZZk1LlsTnHjbvlHQ5kGRv0' target='_blank'>Smoothie survitaminé au Nutri-greens</a>",
-            "Collation du matin": "1 orange",
-            "Déjeuner": "Poulet grillé avec 100g de riz brun et légumes sautés (100g de poivrons, 50g d'oignon, 50g de champignons)",
-            "Goûter": "1 barre protéinée",
-            "Dîner": "Bœuf haché grillé avec 150g de patates douces rôties et 100g de brocoli",
-            "Collation du soir": "1 portion de Night Protein"
+            "Petit-déjeuner": {
+                "titre": "🥞 Pancakes à la banane",
+                "ingredients": [
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🥚 Œufs",
+                        "quantite": "2"
+                    },
+                    {
+                        "nom": "🥣 Flocons d'avoine",
+                        "quantite": "30g"
+                    },
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur vanille)",
+                        "quantite": "1 portion"
+                    },
+                    {
+                        "nom": "🥥 Huile de coco",
+                        "quantite": "1 cuillère à café"
+                    }
+                ],
+                "instructions": [
+                    "Écrasez la banane dans un bol jusqu'à obtenir une purée lisse.",
+                    "Ajoutez les œufs, les flocons d'avoine et la protéine en poudre à la banane écrasée.",
+                    "Mélangez bien tous les ingrédients jusqu'à obtenir une pâte homogène.",
+                    "Faites chauffer une poêle antiadhésive à feu moyen et ajoutez l'huile de coco.",
+                    "Versez environ 2 cuillères à soupe de pâte dans la poêle pour former chaque pancake.",
+                    "Faites cuire les pancakes pendant 2 à 3 minutes de chaque côté jusqu'à ce qu'ils soient bien dorés.",
+                    "Servez les pancakes chauds avec des tranches de banane et un filet de sirop d'érable."
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🌮 Tacos de poulet",
+                "ingredients": [
+                    {
+                        "nom": "🌕 Tortillas de maïs",
+                        "quantite": "2"
+                    },
+                    {
+                        "nom": "🍗 Filet de poulet",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🫑 Poivron rouge",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧅 Oignon",
+                        "quantite": "1/4"
+                    },
+                    {
+                        "nom": "🍅 Tomate",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🥑 Avocat",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🌿 Coriandre fraîche",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Coupez la poitrine de poulet en morceaux et faites-les cuire dans une poêle avec un peu d'huile d'olive jusqu'à ce qu'ils soient bien cuits.",
+                    "Pendant ce temps, coupez le poivron rouge, l'oignon, la tomate et l'avocat en petits dés.",
+                    "Dans un bol, mélangez les dés de poivron rouge, d'oignon, de tomate et d'avocat.",
+                    "Ajoutez le jus de citron, l'huile d'olive, le sel et le poivre dans le bol et mélangez bien.",
+                    "Réchauffez les tortillas de maïs dans une poêle.",
+                    "Garnissez les tortillas chaudes avec le poulet cuit et la salsa aux légumes.",
+                    "Ajoutez quelques feuilles de coriandre sur le dessus.",
+                    "Repliez les tortillas en forme de tacos et dégustez-les."
+                ]
+            },
+            "Goûter": {
+                "titre": "🥤 Smoothie aux fruits et aux amandes",
+                "ingredients": [
+                    {
+                        "nom": "🍓 Framboises",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "20g"
+                    },
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur vanille)",
+                        "quantite": "1 portion"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Dans un mixeur, combinez les framboises, les amandes, le lait d'amande, la protéine en poudre et le miel.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Servez frais."
+                ]
+            },
+            "Dîner": {
+                "titre": "🐟 Saumon grillé avec légumes rôtis",
+                "ingredients": [
+                    {
+                        "nom": "🐟 Filet de saumon",
+                        "quantite": "120g"
+                    },
+                    {
+                        "nom": "🥦 Brocoli",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥕 Carottes",
+                        "quantite": "2"
+                    },
+                    {
+                        "nom": "Asperges",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🧄 Ail",
+                        "quantite": "2 gousses"
+                    }
+                ],
+                "instructions": [
+                    "Préchauffez le gril du four.",
+                    "Dans un bol, mélangez l'huile d'olive, le jus de citron, l'ail émincé, le sel et le poivre.",
+                    "Badigeonnez le filet de saumon avec ce mélange d'huile et d'épices.",
+                    "Placez le filet de saumon sur une plaque de cuisson recouverte de papier sulfurisé.",
+                    "Coupez le brocoli en petits bouquets, les carottes en rondelles et les asperges en morceaux.",
+                    "Disposez les légumes autour du saumon sur la plaque de cuisson.",
+                    "Arrosez les légumes d'un filet d'huile d'olive et assaisonnez-les avec du sel et du poivre.",
+                    "Faites griller le saumon et les légumes au four pendant environ 15-20 minutes, en les retournant à mi-cuisson.",
+                    "Assurez-vous que le saumon soit bien cuit et que les légumes soient tendres.",
+                    "Servez le saumon grillé avec les légumes rôtis comme plat principal."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🥤 Prozis Night Protein",
+                "ingredients": [
+                    {
+                        "nom": "🥄 Prozis Night Protein",
+                        "quantite": "1 mesure"
+                    }
+                ],
+                "instructions": [
+                    "Mélanger 40g de Night Protein Prozis avec 300ml d'eau ou de lait écrémé.",
+                    "Bien remuer jusqu'à obtenir une boisson homogène.",
+                    "Déguster immédiatement."
+                  ]
+            }
         },
         "v2": {
             "Petit-déjeuner": "1 portion de pancakes protéinés (40g de protéine en poudre, environ 40 grammes de flocons d'avoine, 2 œufs) avec 1 cuillère à soupe de sirop d'érable",
-            "Collation du matin": "1 yaourt grec (150g)",
+            "Collation du matin": "1 Skyr (150g)",
             "Déjeuner": "Poisson grillé (120g), 60g de riz brun, 150g de légumes verts sautés",
             "Goûter": "1 pomme et 1 poignée d'amandes",
             "Dîner": "Chili de dinde (100g de dinde hachée, environ 90 grammes de haricots rouges, environ 90 grammes de tomates en dés, environ 90 grammes de poivrons, épices)",
@@ -109,18 +1207,192 @@
     },
     "dimanche": {
         "v1": {
-            "Petit-déjeuner": "Toast à l'avocat et œufs brouillés (1 œuf, 1 tranche de pain complet grillé, 50g d'avocat écrasé)",
-            "Collation du matin": "1 poignée de noix de cajou",
-            "Déjeuner": "Salade de thon et haricots rouges (100g de thon en conserve, 100g de haricots rouges, laitue, 50g de tomates cerises, vinaigrette légère)",
-            "Goûter": "1 pomme",
-            "Dîner": "150g de saumon grillé avec légumes vapeur (100g de brocoli, 100g d'asperges)",
-            "Collation du soir": "100g de skyr/yaourt grec"
+            "Petit-déjeuner": {
+                "titre": "🥤 Smoothie protéiné aux fruits ",
+                "ingredients": [
+                    {
+                        "nom": "🍓 Framboises",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur vanille)",
+                        "quantite": "1 dose"
+                    },
+                    {
+                        "nom": "🥣 Flocons d'avoine",
+                        "quantite": "20g"
+                    }
+                ],
+                "instructions": [
+                    "Dans un mixeur, ajoutez la banane, les framboises, le lait d'amande, la protéine en poudre, les flocons d'avoine et les graines de chia.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Versez le smoothie dans un verre ou un bol.",
+                    "Dégustez ce smoothie protéiné aux fruits pour un petit-déjeuner énergétique."
+                ]
+            },
+            "Collation du matin": {
+                "titre": "🍶 Skyr aux fruits et amandes",
+                "ingredients": [
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🫐 Fruits rouges",
+                        "quantite": "40g"
+                    },
+                    {
+                        "nom": "🧈 Beurre d'amande",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Préchauffez le four à 180°C (thermostat 6).",
+                    "Dans un saladier, mélangez l'oeuf, les flocons d'avoine, la courgette râpée, la carotte râpée, le fromage blanc, la levure chimique, le sel et le poivre.",
+                    "Répartissez la préparation dans des moules à muffins préalablement graissés ou recouverts de caissettes en papier.",
+                    "Enfournez pendant environ 20 minutes, jusqu'à ce que les muffins soient dorés et cuits à coeur.",
+                    "Laissez les muffins refroidir avant de les déguster."
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🍗 Poulet aux légumes grillés",
+                "ingredients": [
+                    {
+                        "nom": "🍗 Filet de poulet",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🫑 Poivron rouge",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🫑 Poivron jaune",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🥒 Courgette",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🍆 Aubergine",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🌿 Herbes de Provence",
+                        "quantite": "1 cuillère à café"
+                    }
+                ],
+                "instructions": [
+                    "Préchauffez le four à 200°C (thermostat 6-7).",
+                    "Coupez les poivrons, la courgette et l'aubergine en morceaux.",
+                    "Disposez les légumes sur une plaque de cuisson recouverte de papier sulfurisé.",
+                    "Arrosez d'huile d'olive et saupoudrez d'herbes de Provence, de sel et de poivre.",
+                    "Mélangez pour bien enrober les légumes d'assaisonnement.",
+                    "Enfournez pendant environ 20 minutes, en remuant à mi-cuisson.",
+                    "Pendant ce temps, faites cuire le filet de poulet dans une poêle avec un peu d'huile d'olive, du sel et du poivre, jusqu'à ce qu'il soit bien cuit.",
+                    "Servez le poulet accompagné des légumes grillés."
+                ]
+            },
+            "Goûter": {
+                "titre": "🥤 Smoothie protéiné à la banane et aux amandes",
+                "ingredients": [
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🧈 Beurre d'amande",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur vanille)",
+                        "quantite": "1 dose"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "20g"
+                    }
+                ],
+                "instructions": [
+                    "Dans un mixeur, ajoutez la banane, le lait d'amande, le beurre d'amande, la protéine en poudre, les amandes et les glaçons.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Versez le smoothie dans un verre.",
+                    "Dégustez ce délicieux smoothie protéiné à la banane et aux amandes en guise de goûter énergétique."
+                ]
+            },
+            "Dîner": {
+                "titre": "🍝 Pâtes à la sauce tomate et lardons",
+                "ingredients": [
+                    {
+                        "nom": "🍝 Pâtes",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥓 Lardons",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥫 Sauce arrabbiata",
+                        "quantite": "200g"
+                    }
+                ],
+                "instructions": [
+                    "Faites cuire les pâtes selon les instructions du paquet.",
+                    "Pendant ce temps, coupez le filet de poulet en dés.",
+                    "Dans une poêle, faites chauffer l'huile d'olive et ajoutez l'oignon et l'ail émincés.",
+                    "Faites revenir pendant quelques minutes jusqu'à ce qu'ils soient dorés.",
+                    "Ajoutez les dés de poulet dans la poêle et faites-les cuire jusqu'à ce qu'ils soient bien dorés.",
+                    "Ajoutez les tomates concassées dans la poêle et laissez mijoter pendant environ 10 minutes.",
+                    "Assaisonnez avec du sel, du poivre et quelques feuilles de basilic frais.",
+                    "Égouttez les pâtes cuites et ajoutez-les dans la poêle avec la sauce.",
+                    "Mélangez bien pour enrober les pâtes de sauce.",
+                    "Servez les pâtes à la sauce tomate et au poulet dans des assiettes.",
+                    "Saupoudrez de parmesan râpé avant de déguster."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🍶 Skyr aux fruits et aux noix",
+                "ingredients": [
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🌰 Mélange de noix",
+                        "quantite": "10g"
+                    }
+                ],
+                "instructions": [
+                    "Dans un bol, ajoutez le Skyr nature.",
+                    "Ajoutez les fruits frais coupés (fraises, myrtilles, framboises) sur le yaourt.",
+                    "Ajoutez les noix (amandes, noix de cajou) concassées sur les fruits.",
+                    "Arrosez le tout d'une cuillère à café de miel.",
+                    "Mélangez délicatement tous les ingrédients.",
+                    "Dégustez ce Skyr aux fruits et aux noix en guise de collation riche en protéines et en saveurs."
+                ]
+            }
         },
         "v2": {
             "Petit-déjeuner": "1 omelette aux légumes (3 œufs, ½ poivron rouge, ½ oignon, 30g de fromage râpé)",
             "Collation du matin": "1 pomme",
             "Déjeuner": "Salade de poulet grillé (100g de poulet, 250g de légumes mélangés, 30g de noix, vinaigrette légère)",
-            "Goûter": "1 yaourt grec (150g) avec 1 poignée de fruits rouges",
+            "Goûter": "1 Skyr (150g) avec 1 poignée de fruits rouges",
             "Dîner": "Steak grillé (120g), 140g de patates douces rôties, 100g de légumes vapeur",
             "Collation du soir": "1 tasse de lait écrémé (250ml)"
         }
