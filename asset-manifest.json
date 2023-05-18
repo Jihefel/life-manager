@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b568475b.css",
-    "main.js": "/static/js/main.339115ec.js",
-    "static/media/carrefour.png": "/static/media/carrefour.4bff3fa6a3ee0dc403e9.png",
-    "static/media/delhaize.png": "/static/media/delhaize.53ea942651b93f4624bb.png",
-    "static/media/aldi.svg": "/static/media/aldi.3dc98e36571cce2edec1.svg",
-    "index.html": "/index.html",
-    "main.b568475b.css.map": "/static/css/main.b568475b.css.map",
-    "main.339115ec.js.map": "/static/js/main.339115ec.js.map"
+    "main.css": "/life-manager/static/css/main.6b16cbec.css",
+    "main.js": "/life-manager/static/js/main.553375fe.js",
+    "static/media/carrefour.png": "/life-manager/static/media/carrefour.4bff3fa6a3ee0dc403e9.png",
+    "static/media/delhaize.png": "/life-manager/static/media/delhaize.53ea942651b93f4624bb.png",
+    "static/media/aldi.svg": "/life-manager/static/media/aldi.3dc98e36571cce2edec1.svg",
+    "index.html": "/life-manager/index.html",
+    "main.6b16cbec.css.map": "/life-manager/static/css/main.6b16cbec.css.map",
+    "main.553375fe.js.map": "/life-manager/static/js/main.553375fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.b568475b.css",
-    "static/js/main.339115ec.js"
+    "static/css/main.6b16cbec.css",
+    "static/js/main.553375fe.js"
   ]
 }
