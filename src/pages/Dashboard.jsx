@@ -1,13 +1,12 @@
 import { useSelector } from "react-redux";
 import menu from "../assets/data/menus.json";
 import { useState, useEffect } from "react";
-import { List, ListItem, ListItemButton, ListItemText } from "@mui/material";
 
 function Dashboard(props) {
   const jourActuel = useSelector((state) => state.whatDate.today);
   const heureActuelle = useSelector((state) => state.whatDate.hour);
   const minuteActuelle = useSelector((state) => state.whatDate.minute);
-  const sortedCheckedIngredients = useSelector((state) => state.selectedIngredients.sortedCheckedIngredients)
+  const workoutOfTheDay = useSelector((state) => state.workouts.workoutOfTheDay);  
 
   const [periodeRepas, setPeriodeRepas] = useState(null);
   const [repasActuel, setRepasActuel] = useState(null);
@@ -89,10 +88,13 @@ function Dashboard(props) {
           </>
         ) : null}
       </div>
-      <div className={`col-span-2 p-md-4 p-3 rounded-lg shadow-lg ${props.theme === "dark" ? "border" : ""}`}>Entraînement du jour</div>
-      <div className='row-span-2 col-span-2 bg-pink-400'>
+      <div className={`row-span-3 p-md-4 p-3 rounded-lg shadow-lg ${props.theme === "dark" ? "border" : ""}`}>
+        Entraînement du jour
+        <pre>{workoutOfTheDay}</pre>
+        </div>
+      {/* <div className='row-span-2 col-span-2 bg-pink-400'>
       03
-      </div>
+      </div> */}
     </div>
   );
 }

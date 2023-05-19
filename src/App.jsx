@@ -18,6 +18,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { useDispatch } from "react-redux";
 import { getDay, getHour, getMinute } from "./redux/features/date/dateSlice";
 import { setIngredientsFromMenus } from "./redux/features/ingredients/selectedIngredientsSlice";
+import { setWorkoutOfTheDay } from "./redux/features/entrainements/workoutsSlice";
 import menus from "./assets/data/menus.json";
 
 export default function App() {
@@ -136,6 +137,44 @@ export default function App() {
 
     dispatch(setIngredientsFromMenus(linkedIngredients));
   }, []);
+
+
+  useEffect(() => {
+    const { jourActuel } = getDate()
+    switch (jourActuel) {
+        case "mardi":
+            dispatch(setWorkoutOfTheDay(`Développé couché avec barre, prise large 8,8,8
+            Tirage à la poulie, prise serrée (assis) 10,10,10
+            Élévation latérale d'un bras à la poulle (courbé) 12,12,12
+            Tirage poitrine à la poulie, prise large (assis) 8,8,8
+            Développé epaule avec barre (debout) 8,8,8
+            Flexion biceps avec barre (debout) 8,8,8
+            Extension triceps à la poulie, prise main au-dessus (debout) 8,8,8
+            Lever jambe, en Appui sur les Bras 3x12`))
+            break;
+        case "jeudi":
+            dispatch(setWorkoutOfTheDay(`
+            Flexion jambe avec machine (incliné) 8,8,8
+            Fente avec haltères  8,8,8
+            Extension jambes avec machine (assis) 12,12,12
+            Flexion jambe avec machine (assis) 8,8,8
+            Extension mollet avec machine (debout) 15,15,15
+            Roulette barre (à genoux) 3x10 `))
+        break;
+        case "samedi":
+            dispatch(setWorkoutOfTheDay(`Développé couché avec deux haltères (incliné) 8,8,8
+            Tirage avec machine (assis) 8,8,8
+            Élévation avant d'un seul bras à la poulie (debout) 13,13,13
+            Extension triceps unilatérale à la poulie haute avec poignée (debout) 8,8,8
+            Squats orteils avec machine Smith (debout) 8,8,8
+            Flexion biceps Zottman avec haltères (debout) 8,8,8
+            Planks `))
+        break;
+        default:
+            dispatch(setWorkoutOfTheDay("Pas d'entraînement aujourd'hui"))
+            break;
+    }
+}, []);
 
   return (
     <>
