@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/life-manager/static/css/main.c610e143.css",
-    "main.js": "/life-manager/static/js/main.5df5161a.js",
+    "main.js": "/life-manager/static/js/main.f31ff4fb.js",
     "static/media/carrefour.png": "/life-manager/static/media/carrefour.4bff3fa6a3ee0dc403e9.png",
     "static/media/delhaize.png": "/life-manager/static/media/delhaize.53ea942651b93f4624bb.png",
     "static/media/aldi.svg": "/life-manager/static/media/aldi.71f235ccf0c7df534254.svg",
     "index.html": "/life-manager/index.html",
     "main.c610e143.css.map": "/life-manager/static/css/main.c610e143.css.map",
-    "main.5df5161a.js.map": "/life-manager/static/js/main.5df5161a.js.map"
+    "main.f31ff4fb.js.map": "/life-manager/static/js/main.f31ff4fb.js.map"
   },
   "entrypoints": [
     "static/css/main.c610e143.css",
-    "static/js/main.5df5161a.js"
+    "static/js/main.f31ff4fb.js"
   ]
 }
