@@ -143,6 +143,7 @@ export default function App() {
         <CssBaseline />
         <Routes>
           <Route
+            exact
             path='/'
             element={
               <Navtabs
