@@ -166,6 +166,7 @@ export default function App() {
         <CssBaseline />
         <Routes>
           <Route
+            exact
             path='/'
             element={
               <Navtabs
@@ -177,7 +178,8 @@ export default function App() {
             }
           >
             <Route
-              path='/dashboard'
+              exact
+              path='dashboard'
               element={
                 <Dashboard
                   theme={theme.palette.mode}
@@ -186,7 +188,8 @@ export default function App() {
               }
             />
             <Route
-              path='/repas'
+              exact
+              path='repas'
               element={
                 <Repas
                   theme={theme.palette.mode}
@@ -196,24 +199,28 @@ export default function App() {
               }
             />
             <Route
-              path='/listedecourses'
+              exact
+              path='listedecourses'
               element={<ShoppingList />}
             />
             <Route
+              exact
               path='entrainements'
               element={<Entrainements />}
             />
             <Route
-              path='/rappels'
+              exact
+              path='rappels'
               element={<Rappels getDate={getDate} />}
             />
             <Route
-              path='/tasks'
+              exact
+              path='tasks'
               element={<Tasks />}
             />
           </Route>
           <Route
-            path='/*'
+            path='*'
             element={<Error />}
           />
         </Routes>
