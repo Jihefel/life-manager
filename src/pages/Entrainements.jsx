@@ -1,57 +1,27 @@
-import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { setWorkoutOfTheDay } from "../redux/features/entrainements/workoutsSlice";
+import { useSelector } from "react-redux";
+import { isMobile } from "react-device-detect";
 
 function Entrainements() {
+  const workoutOfTheDay = useSelector((state) => state.workouts.workoutOfTheDay);
 
-    const jourActuel = useSelector(state => state.whatDate.today)
-    const workoutOfTheDay = useSelector(state => state.workouts.workoutOfTheDay);
-
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        switch (jourActuel) {
-            case "mardi":
-                dispatch(setWorkoutOfTheDay(`Développé couché avec barre, prise large 8,8,8
-                Tirage à la poulie, prise serrée (assis) 10,10,10
-                Élévation latérale d'un bras à la poulle (courbé) 12,12,12
-                Tirage poitrine à la poulie, prise large (assis) 8,8,8
-                Développé epaule avec barre (debout) 8,8,8
-                Flexion biceps avec barre (debout) 8,8,8
-                Extension triceps à la poulie, prise main au-dessus (debout) 8,8,8
-                Lever jambe, en Appui sur les Bras 3x12`))
-                break;
-            case "jeudi":
-                dispatch(setWorkoutOfTheDay(`
-                Flexion jambe avec machine (incliné) 8,8,8
-                Fente avec haltères  8,8,8
-                Extension jambes avec machine (assis) 12,12,12
-                Flexion jambe avec machine (assis) 8,8,8
-                Extension mollet avec machine (debout) 15,15,15
-                Roulette barre (à genoux) 3x10 `))
-            break;
-            case "samedi":
-                dispatch(setWorkoutOfTheDay(`Développé couché avec deux haltères (incliné) 8,8,8
-                Tirage avec machine (assis) 8,8,8
-                Élévation avant d'un seul bras à la poulie (debout) 13,13,13
-                Extension triceps unilatérale à la poulie haute avec poignée (debout) 8,8,8
-                Squats orteils avec machine Smith (debout) 8,8,8
-                Flexion biceps Zottman avec haltères (debout) 8,8,8
-                Planks `))
-            break;
-            default:
-                dispatch(setWorkoutOfTheDay("Pas d'entraînement aujourd'hui"))
-                break;
-        }
-    }, []);
-
-
-    return (
+  return (
+    <div className='container'>
+      {workoutOfTheDay ? (
         <>
-        <h1>Entrainements</h1>
-        <pre>{workoutOfTheDay}</pre>
+          <figure>
+            <figcaption className="fw-bold">{workoutOfTheDay.nom}</figcaption>
+            <img
+              src={workoutOfTheDay.img}
+              alt='entrainement du jour'
+              className={`pt-3 ${isMobile ? "w-full" : "w-50 flex mx-auto"}`}
+            />
+          </figure>
         </>
-     );
+      ) : (
+        <p className='text-xl'>Pas d'entraînement aujourd&apos;hui. Repose toi bien !</p>
+      )}
+    </div>
+  );
 }
 
 export default Entrainements;

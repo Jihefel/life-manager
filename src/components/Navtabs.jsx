@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import { FaTasks } from "react-icons/fa";
+// import { FaTasks } from "react-icons/fa";
 // import { RiAlarmWarningLine } from "react-icons/ri";
 import { GiMeal, GiMuscularTorso } from "react-icons/gi";
 import { MdDashboard } from "react-icons/md";
@@ -34,7 +34,7 @@ export default function Navtabs(props) {
       url: "/entrainements",
       icon: <GiMuscularTorso />,
     },
-    4: { nom: "Tâches", url: "/tasks", icon: <FaTasks /> },
+    // 4: { nom: "Tâches", url: "/tasks", icon: <FaTasks /> },
     // 5: { nom: "Rappels", url: "/rappels", icon: <RiAlarmWarningLine /> },
   };
   const classNameForPathMap = `text-xl flex items-center ${props.theme === "dark" ? "text-white" : "text-darkmode"}`;

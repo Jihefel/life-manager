@@ -6,7 +6,7 @@
                 "ingredients": [
                     {
                         "nom": "🍌 Banane",
-                        "quantite": "1"
+                        "quantite": "1/2"
                     },
                     {
                         "nom": "🍓 Fraises",
@@ -43,8 +43,8 @@
                         "quantite": "150g"
                     },
                     {
-                        "nom": "🌾 Boulgour cuit",
-                        "quantite": "100g"
+                        "nom": "🌾 Boulgour",
+                        "quantite": "60g"
                     },
                     {
                         "nom": "🥬 Laitue",
@@ -79,7 +79,7 @@
                     },
                     {
                         "nom": "🥣 Brinta",
-                        "quantite": "35g"
+                        "quantite": "50g"
                     },
                     {
                         "nom": "🥥 Noix de coco rapée",
@@ -91,7 +91,7 @@
                     },
                     {
                         "nom": "🍇 Brunoise de fruits",
-                        "quantite": "50g"
+                        "quantite": "40g"
                     },
                     {
                         "nom": "🥛 Lait d'amande",
@@ -158,7 +158,7 @@
                     },
                     {
                         "nom": "🍌 Banane",
-                        "quantite": "1"
+                        "quantite": "1/2"
                     },
                     {
                         "nom": "𓇢 Graines de chia",
@@ -350,11 +350,7 @@
                     },
                     {
                         "nom": "🍇 Brunoise de fruits",
-                        "quantite": "50g"
-                    },
-                    {
-                        "nom": "🌰 Noix du Brésil",
-                        "quantite": "15g"
+                        "quantite": "60g"
                     }
                 ]
             },
@@ -379,7 +375,7 @@
                     },
                     {
                         "nom": "🧴 Huile d'olive",
-                        "quantite": "2 cuillère à soupe"
+                        "quantite": "1 cuillère à soupe"
                     }
                 ],
                 "instructions": [
@@ -393,61 +389,61 @@
             "Goûter": {
                 "titre": "🍶 Skyr aux fruits rouges",
                 "ingredients": [
-                  {
-                    "nom": "🍶 Skyr",
-                    "quantite": "100g"
-                  },
-                  {
-                    "nom": "🫐 Fruits rouges",
-                    "quantite": "100g"
-                  },
-                  {
-                    "nom": "🍯 Miel",
-                    "quantite": "0.33 cuillère à soupe (1 c.c.)"
-                  },
-                  {
-                    "nom": "🌰 Amandes",
-                    "quantite": "15g"
-                  }
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🫐 Fruits rouges",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "0.33 cuillère à soupe (1 c.c.)"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "15g"
+                    }
                 ],
                 "instructions": [
-                  "Dans un bol, mélanger le fromage blanc avec les fruits rouges.",
-                  "Ajouter une cuillère à café de miel pour sucrer légèrement.",
-                  "Mélanger délicatement.",
-                  "Déguster frais."
+                    "Dans un bol, mélanger le fromage blanc avec les fruits rouges.",
+                    "Ajouter une cuillère à café de miel pour sucrer légèrement.",
+                    "Mélanger délicatement.",
+                    "Déguster frais."
                 ]
             },
             "Dîner": {
                 "titre": "🐟 Saumon, riz, asperges",
                 "ingredients": [
-                  {
-                    "nom": "🐟 Filet de saumon",
-                    "quantite": "120g"
-                  },
-                  {
-                    "nom": "🍚 Riz",
-                    "quantite": "60g"
-                  },
-                  {
-                    "nom": "Asperges",
-                    "quantite": "100g"
-                  },
-                  {
-                    "nom": "🧴 Huile d'olive",
-                    "quantite": "2 cuillère à soupe"
-                  },
-                  {
-                    "nom": "🍋 Citron",
-                    "quantite": "1/2"
-                  }
+                    {
+                        "nom": "🐟 Filet de saumon",
+                        "quantite": "120g"
+                    },
+                    {
+                        "nom": "🍚 Riz",
+                        "quantite": "50g"
+                    },
+                    {
+                        "nom": "Asperges",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🧴 Huile d'olive",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🍋 Citron",
+                        "quantite": "1/2"
+                    }
                 ],
                 "instructions": [
-                  "Préchauffer le four à 200°C.",
-                  "Cuire le riz",
-                  "Placer le saumon et les asperges sur une plaque de cuisson recouverte de papier sulfurisé.",
-                  "Arroser d'huile d'olive, de jus de citron, de sel et de poivre.",
-                  "Cuire au four pendant environ 15-20 minutes, ou jusqu'à ce que le saumon soit cuit à votre goût.",
-                  "Servir chaud."
+                    "Préchauffer le four à 200°C.",
+                    "Cuire le riz",
+                    "Placer le saumon et les asperges sur une plaque de cuisson recouverte de papier sulfurisé.",
+                    "Arroser d'huile d'olive, de jus de citron, de sel et de poivre.",
+                    "Cuire au four pendant environ 15-20 minutes, ou jusqu'à ce que le saumon soit cuit à votre goût.",
+                    "Servir chaud."
                 ]
             },
             "Collation du soir": {
@@ -462,7 +458,7 @@
                     "Mélanger 40g de Night Protein Prozis avec 300ml d'eau ou de lait écrémé.",
                     "Bien remuer jusqu'à obtenir une boisson homogène.",
                     "Déguster immédiatement."
-                  ]
+                ]
             }
         },
         "v2": {
@@ -477,167 +473,11 @@
     "mercredi": {
         "v1": {
             "Petit-déjeuner": {
-                "titre": "🥞 Pancakes protéinés",
-                "ingredients": [
-                    {
-                        "nom": "🥄 Poudre de pancakes au collagène Prozis",
-                        "quantite": "2 mesures"
-                    },
-                    {
-                        "nom": "🍌 Banane",
-                        "quantite": "1"
-                    },
-                    {
-                        "nom": "🍯 Miel",
-                        "quantite": "1 cuillère à soupe"
-                    }
-                ],
-                "instructions": [
-                    "Mélangez tous les ingrédients dans un bol jusqu'à obtenir une pâte lisse.",
-                    "Faites chauffer une poêle antiadhésive et versez-y la pâte à pancakes en formant des petits cercles.",
-                    "Faites cuire les pancakes jusqu'à ce qu'ils soient dorés des deux côtés.",
-                    "Servez les pancakes chauds avec un peu de miel."
-                ]
-            },
-            "Déjeuner": {
-                "titre": "🥗 Bol de quinoa, légumes et poulet",
-                "ingredients": [
-                    {
-                        "nom": "🍗 Filet de poulet",
-                        "quantite": "150g"
-                    },
-                    {
-                        "nom": "🌾 Boulgour cuit",
-                        "quantite": "100g"
-                    },
-                    {
-                        "nom": "🥬 Laitue",
-                        "quantite": "50g"
-                    },
-                    {
-                        "nom": "🥒 Concombre",
-                        "quantite": "1/2"
-                    },
-                    {
-                        "nom": "🫑 Poivron rouge",
-                        "quantite": "1/2"
-                    },
-                    {
-                        "nom": "🧴 Vinaigrette légère",
-                        "quantite": "2 cuillères à soupe"
-                    }
-                ],
-                "instructions": [
-                    "Coupez le filet de poulet grillé en dés.",
-                    "Préparez un bol avec le quinoa cuit comme base.",
-                    "Ajoutez le poulet, la laitue, le concombre et le poivron rouge coupés en morceaux.",
-                    "Arrosez de vinaigrette légère et mélangez bien.",
-                    "Servez frais."
-                ]
-            },
-            "Goûter": {
-                "titre": "🥤 Smoothie aux baies et aux amandes",
-                "ingredients": [
-                    {
-                        "nom": "🥛 Lait d'amande",
-                        "quantite": "200ml"
-                    },
-                    {
-                        "nom": "🫐 Fruits rouges",
-                        "quantite": "100g"
-                    },
-                    {
-                        "nom": "🌰 Amandes",
-                        "quantite": "25g"
-                    },
-
-                    {
-                        "nom": "🥄 Protéine en poudre (saveur fruits rouges)",
-                        "quantite": "1 mesure"
-                    }
-                ],
-                "instructions": [
-                    "Placez tous les ingrédients dans un mixeur.",
-                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
-                    "Servez frais."
-                ]
-            },
-            "Dîner": {
-                "titre": "🌮 Tacos au poisson",
-                "ingredients": [
-                    {
-                        "nom": "🐟 Filet de poisson blanc",
-                        "quantite": "150g"
-                    },
-                    {
-                        "nom": "🌕 Tortillas de maïs",
-                        "quantite": "2"
-                    },
-                    {
-                        "nom": "🥬 Chou rouge",
-                        "quantite": "1/4"
-                    },
-                    {
-                        "nom": "🥕 Carottes",
-                        "quantite": "1"
-                    },
-                    {
-                        "nom": "🥑 Avocat",
-                        "quantite": "1/2"
-                    },
-                    {
-                        "nom": "🍋 Jus de citron vert",
-                        "quantite": "1 cuillère à soupe"
-                    },
-                    {
-                        "nom": "🌿 Coriandre fraîche",
-                        "quantite": "1 cuillère à soupe"
-                    }
-                ],
-                "instructions": [
-                    "Cuisez le filet de poisson à la vapeur ou au four jusqu'à ce qu'il soit bien cuit.",
-                    "Écrasez l'avocat avec le jus de citron vert pour préparer une guacamole.",
-                    "Râpez les carottes et émincez le chou rouge.",
-                    "Faites réchauffer les tortillas de maïs.",
-                    "Garnissez les tortillas avec le poisson cuit, la guacamole, les carottes râpées, le chou rouge et la coriandre fraîche.",
-                    "Enroulez les tacos et servez-les chauds."
-                ]
-            },
-            "Collation du soir": {
-                "titre": "🍶 Skyr aux noix",
-                "ingredients": [
-                    {
-                        "nom": "🍶 Skyr",
-                        "quantite": "150g"
-                    },
-                    {
-                        "nom": "🌰 Mélange de noix",
-                        "quantite": "25g"
-                    },
-                    {
-                        "nom": "🍯 Miel",
-                        "quantite": "1 cuillère à soupe"
-                    }
-                ]
-            }
-        },
-        "v2": {
-            "Petit-déjeuner": "150g de Skyr avec 1 poignée de baies, 1 cuillère à soupe de graines de lin et 1 cuillère à café de miel",
-            "Collation du matin": "1 pomme",
-            "Déjeuner": "Sandwich au thon (100g de thon, 2 tranches de pain de blé entier, laitue, tomate, moutarde)",
-            "Goûter": "1 barre protéinée (20g)",
-            "Dîner": "Steak grillé (120g), 140g de patates douces rôties, 100g de légumes vapeur",
-            "Collation du soir": "1 tasse de lait écrémé (250ml)"
-        }
-    },
-    "jeudi": {
-        "v1": {
-            "Petit-déjeuner": {
                 "titre": "🥤 Bol de smoothie aux fruits",
                 "ingredients": [
                     {
                         "nom": "🍇 Brunoise de fruits",
-                        "quantite": "100g"
+                        "quantite": "50g"
                     },
                     {
                         "nom": "🍶 Skyr",
@@ -801,7 +641,7 @@
                     "Mélanger 40g de Night Protein Prozis avec 300ml d'eau ou de lait écrémé.",
                     "Bien remuer jusqu'à obtenir une boisson homogène.",
                     "Déguster immédiatement."
-                  ]
+                ]
             }
         },
         "v2": {
@@ -811,6 +651,161 @@
             "Goûter": "1 pomme et 1 poignée d'amandes",
             "Dîner": "Poisson grillé (120g de saumon), 100g de brocoli vapeur, 100g de quinoa",
             "Collation du soir": "1 portion de nuit protéine shake (1 dosette dans 200ml de lait écrémé)"
+        }
+    },
+    "jeudi": {
+        "v1": {
+            "Petit-déjeuner": {
+                "titre": "🥞 Pancakes protéinés",
+                "ingredients": [
+                    {
+                        "nom": "🥄 Poudre de pancakes au collagène Prozis",
+                        "quantite": "2 mesures"
+                    },
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Mélangez tous les ingrédients dans un bol jusqu'à obtenir une pâte lisse.",
+                    "Faites chauffer une poêle antiadhésive et versez-y la pâte à pancakes en formant des petits cercles.",
+                    "Faites cuire les pancakes jusqu'à ce qu'ils soient dorés des deux côtés.",
+                    "Servez les pancakes chauds avec un peu de miel."
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🥗 Bol de quinoa, légumes et poulet",
+                "ingredients": [
+                    {
+                        "nom": "🍗 Filet de poulet",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌾 Boulgour cuit",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🥬 Laitue",
+                        "quantite": "50g"
+                    },
+                    {
+                        "nom": "🥒 Concombre",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🫑 Poivron rouge",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧴 Vinaigrette légère",
+                        "quantite": "2 cuillères à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Coupez le filet de poulet grillé en dés.",
+                    "Préparez un bol avec le quinoa cuit comme base.",
+                    "Ajoutez le poulet, la laitue, le concombre et le poivron rouge coupés en morceaux.",
+                    "Arrosez de vinaigrette légère et mélangez bien.",
+                    "Servez frais."
+                ]
+            },
+            "Goûter": {
+                "titre": "🥤 Smoothie aux baies et aux amandes",
+                "ingredients": [
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🫐 Fruits rouges",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "25g"
+                    },
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur fruits rouges)",
+                        "quantite": "1 mesure"
+                    }
+                ],
+                "instructions": [
+                    "Placez tous les ingrédients dans un mixeur.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Servez frais."
+                ]
+            },
+            "Dîner": {
+                "titre": "🌮 Tacos au poisson",
+                "ingredients": [
+                    {
+                        "nom": "🐟 Filet de poisson blanc",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌕 Tortillas de maïs",
+                        "quantite": "2"
+                    },
+                    {
+                        "nom": "🥬 Chou rouge",
+                        "quantite": "1/4"
+                    },
+                    {
+                        "nom": "🥕 Carottes",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🥑 Avocat",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron vert",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🌿 Coriandre fraîche",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Cuisez le filet de poisson à la vapeur ou au four jusqu'à ce qu'il soit bien cuit.",
+                    "Écrasez l'avocat avec le jus de citron vert pour préparer une guacamole.",
+                    "Râpez les carottes et émincez le chou rouge.",
+                    "Faites réchauffer les tortillas de maïs.",
+                    "Garnissez les tortillas avec le poisson cuit, la guacamole, les carottes râpées, le chou rouge et la coriandre fraîche.",
+                    "Enroulez les tacos et servez-les chauds."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🍶 Skyr aux noix",
+                "ingredients": [
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌰 Mélange de noix",
+                        "quantite": "25g"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ]
+            }
+        },
+        "v2": {
+            "Petit-déjeuner": "150g de Skyr avec 1 poignée de baies, 1 cuillère à soupe de graines de lin et 1 cuillère à café de miel",
+            "Collation du matin": "1 pomme",
+            "Déjeuner": "Sandwich au thon (100g de thon, 2 tranches de pain de blé entier, laitue, tomate, moutarde)",
+            "Goûter": "1 barre protéinée (20g)",
+            "Dîner": "Steak grillé (120g), 140g de patates douces rôties, 100g de légumes vapeur",
+            "Collation du soir": "1 tasse de lait écrémé (250ml)"
         }
     },
     "vendredi": {
@@ -1193,7 +1188,7 @@
                     "Mélanger 40g de Night Protein Prozis avec 300ml d'eau ou de lait écrémé.",
                     "Bien remuer jusqu'à obtenir une boisson homogène.",
                     "Déguster immédiatement."
-                  ]
+                ]
             }
         },
         "v2": {
