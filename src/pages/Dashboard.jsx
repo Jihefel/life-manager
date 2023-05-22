@@ -9,8 +9,9 @@ function Dashboard(props) {
   const minuteActuelle = useSelector((state) => state.whatDate.minute);
   const [periodeRepas, setPeriodeRepas] = useState(null);
   const [repasActuel, setRepasActuel] = useState(null);
-
+  
   useEffect(() => {
+    
     let periodesDesRepas = Object.keys(menu[jourActuel].v1);
     let collationAujourdhui = periodesDesRepas[1] === "Collation du matin";
 
@@ -20,19 +21,19 @@ function Dashboard(props) {
         setPeriodeRepas(periodesDesRepas[0]);
         break;
       // Collation du matin
-      case collationAujourdhui && heureActuelle > 10 && heureActuelle <= 12 && minuteActuelle < 30:
-        setPeriodeRepas(periodesDesRepas[1]);
+      case heureActuelle > 10 && heureActuelle <= 12 && minuteActuelle < 30:
+        collationAujourdhui ? setPeriodeRepas(periodesDesRepas[1]) : setPeriodeRepas(periodesDesRepas[0]);
         break;
       // Déjeuner
       case ((heureActuelle >= 12 && minuteActuelle <= 30) || heureActuelle >= 12) && (heureActuelle < 15 || (heureActuelle === 15 && minuteActuelle < 30)):
         collationAujourdhui ? setPeriodeRepas(periodesDesRepas[2]) : setPeriodeRepas(periodesDesRepas[1]);
         break;
       // Goûter
-      case ((heureActuelle >= 15 && minuteActuelle <= 30) || heureActuelle >= 15) && (heureActuelle < 20 || (heureActuelle === 20 && minuteActuelle < 30)):
+      case ((heureActuelle >= 15 && minuteActuelle <= 30) || heureActuelle >= 15) && (heureActuelle < 20):
         collationAujourdhui ? setPeriodeRepas(periodesDesRepas[3]) : setPeriodeRepas(periodesDesRepas[2]);
         break;
       // Dîner
-      case ((heureActuelle >= 20 && minuteActuelle <= 30) || heureActuelle >= 20) && heureActuelle < 23:
+      case (heureActuelle >= 20 && heureActuelle < 23):
         collationAujourdhui ? setPeriodeRepas(periodesDesRepas[4]) : setPeriodeRepas(periodesDesRepas[3]);
         break;
       // Collation du soir

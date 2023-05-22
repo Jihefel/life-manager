@@ -60,7 +60,7 @@
                     },
                     {
                         "nom": "🧴 Vinaigrette légère",
-                        "quantite": "2 cuillères à soupe"
+                        "quantite": "1 cuillères à soupe"
                     }
                 ],
                 "instructions": [
@@ -103,11 +103,13 @@
                     }
                 ],
                 "instructions": [
-                    "Dans un bol, mélangez la poudre de protéine, les flocons d'avoine, le beurre d'arachide, le miel et les pépites de chocolat.",
-                    "Ajoutez progressivement le lait d'amande tout en mélangeant jusqu'à obtenir une pâte.",
-                    "Formez des barres avec la pâte et saupoudrez d'amandes hachées.",
-                    "Placez au réfrigérateur pendant au moins 1 heure pour qu'elles durcissent.",
-                    "Dégustez comme collation."
+                    "Dans une casserole, ajoutez les flocons (Brinta), la poudre de protéine et la noix de coco râpée. Mélangez les ingrédients secs.",
+                    "Versez le lait d'amande dans la casserole et placez-la sur feu moyen.",
+                    "Remuez constamment le mélange pendant la cuisson, jusqu'à ce que les flocons d'avoine absorbent le liquide et que le porridge atteigne une consistance crémeuse. Cela devrait prendre environ 5 à 7 minutes.",
+                    "Retirez la casserole du feu et ajoutez le miel et les morceaux de fruits brunoise. Remuez pour bien incorporer les ingrédients.",
+                    "Transférez le porridge dans un bol de service.",
+                    "Saupoudrez les amandes hachées sur le dessus du porridge.",
+                    "Vous pouvez déguster le porridge chaud tel quel, ou le laisser refroidir légèrement avant de le savourer."
                 ]
             },
             "Dîner": {
@@ -168,6 +170,13 @@
                         "nom": "🟤 Pépites de chocolat",
                         "quantite": "10g"
                     }
+                ],
+                "instructions": [
+                    "Dans un bol, versez le Skyr",
+                    "Coupez la moitié de la banane en rondelles et ajoutez-les au Skyr",
+                    "Saupoudrez une cuillère à soupe de graines de chia sur le dessus.",
+                    "Ajoutez les pépites de chocolat sur le mélange.",
+                    "Mélangez délicatement tous les ingrédients ensemble jusqu'à ce qu'ils soient bien répartis."
                 ]
             }
         },
@@ -332,6 +341,10 @@
                     {
                         "nom": "🧈 Beurre d'amande",
                         "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
                     }
                 ],
                 "instructions": [
@@ -351,6 +364,10 @@
                     {
                         "nom": "🍇 Brunoise de fruits",
                         "quantite": "60g"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "15g"
                     }
                 ]
             },
@@ -400,10 +417,6 @@
                     {
                         "nom": "🍯 Miel",
                         "quantite": "0.33 cuillère à soupe (1 c.c.)"
-                    },
-                    {
-                        "nom": "🌰 Amandes",
-                        "quantite": "15g"
                     }
                 ],
                 "instructions": [
@@ -473,6 +486,165 @@
     "mercredi": {
         "v1": {
             "Petit-déjeuner": {
+                "titre": "🥞 Pancakes protéinés",
+                "ingredients": [
+                    {
+                        "nom": "🥄 Poudre de pancakes au collagène Prozis",
+                        "quantite": "2 mesures"
+                    },
+                    {
+                        "nom": "🍌 Banane",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "0.33 cuillère à soupe (1 c.c.)"
+                    },
+                    {
+                        "nom": "🧈 Beurre d'amande",
+                        "quantite": "0.33 cuillère à soupe (1 c.c.)"
+                    }
+                ],
+                "instructions": [
+                    "Mélangez tous les ingrédients dans un bol jusqu'à obtenir une pâte lisse.",
+                    "Faites chauffer une poêle antiadhésive et versez-y la pâte à pancakes en formant des petits cercles.",
+                    "Faites cuire les pancakes jusqu'à ce qu'ils soient dorés des deux côtés.",
+                    "Servez les pancakes chauds avec un peu de miel."
+                ]
+            },
+            "Déjeuner": {
+                "titre": "🥗 Bol de quinoa, légumes et poulet",
+                "ingredients": [
+                    {
+                        "nom": "🍗 Filet de poulet",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌾 Boulgour",
+                        "quantite": "60g"
+                    },
+                    {
+                        "nom": "🥬 Laitue",
+                        "quantite": "50g"
+                    },
+                    {
+                        "nom": "🥒 Concombre",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🫑 Poivron rouge",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧴 Vinaigrette légère",
+                        "quantite": "1 cuillères à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Coupez le filet de poulet grillé en dés.",
+                    "Préparez un bol avec le quinoa cuit comme base.",
+                    "Ajoutez le poulet, la laitue, le concombre et le poivron rouge coupés en morceaux.",
+                    "Arrosez de vinaigrette légère et mélangez bien.",
+                    "Servez frais."
+                ]
+            },
+            "Goûter": {
+                "titre": "🥤 Smoothie aux baies et aux amandes",
+                "ingredients": [
+                    {
+                        "nom": "🥛 Lait d'amande",
+                        "quantite": "200ml"
+                    },
+                    {
+                        "nom": "🫐 Fruits rouges",
+                        "quantite": "100g"
+                    },
+                    {
+                        "nom": "🌰 Amandes",
+                        "quantite": "15g"
+                    },
+                    {
+                        "nom": "🥄 Protéine en poudre (saveur fruits rouges)",
+                        "quantite": "1 mesure"
+                    }
+                ],
+                "instructions": [
+                    "Placez tous les ingrédients dans un mixeur.",
+                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
+                    "Servez frais."
+                ]
+            },
+            "Dîner": {
+                "titre": "🌮 Tacos au poisson",
+                "ingredients": [
+                    {
+                        "nom": "🐟 Filet de poisson blanc",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌕 Tortillas de maïs",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🥬 Chou rouge",
+                        "quantite": "1/4"
+                    },
+                    {
+                        "nom": "🥕 Carottes",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🥑 Avocat",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🍋 Jus de citron vert",
+                        "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🌿 Coriandre fraîche",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ],
+                "instructions": [
+                    "Cuisez le filet de poisson à la vapeur ou au four jusqu'à ce qu'il soit bien cuit.",
+                    "Écrasez l'avocat avec le jus de citron vert pour préparer une guacamole.",
+                    "Râpez les carottes et émincez le chou rouge.",
+                    "Faites réchauffer les tortillas de maïs.",
+                    "Garnissez les tortillas avec le poisson cuit, la guacamole, les carottes râpées, le chou rouge et la coriandre fraîche.",
+                    "Enroulez les tacos et servez-les chauds."
+                ]
+            },
+            "Collation du soir": {
+                "titre": "🍶 Skyr aux noix",
+                "ingredients": [
+                    {
+                        "nom": "🍶 Skyr",
+                        "quantite": "150g"
+                    },
+                    {
+                        "nom": "🌰 Mélange de noix",
+                        "quantite": "10g"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
+                    }
+                ]
+            }
+        },
+        "v2": {
+            "Petit-déjeuner": "150g de Skyr avec 1 poignée de baies, 1 cuillère à soupe de graines de lin et 1 cuillère à café de miel",
+            "Collation du matin": "1 pomme",
+            "Déjeuner": "Sandwich au thon (100g de thon, 2 tranches de pain de blé entier, laitue, tomate, moutarde)",
+            "Goûter": "1 barre protéinée (20g)",
+            "Dîner": "Steak grillé (120g), 140g de patates douces rôties, 100g de légumes vapeur",
+            "Collation du soir": "1 tasse de lait écrémé (250ml)"
+        }
+    },
+    "jeudi": {
+        "v1": {
+            "Petit-déjeuner": {
                 "titre": "🥤 Bol de smoothie aux fruits",
                 "ingredients": [
                     {
@@ -508,8 +680,8 @@
                 "titre": "🥗 Salade de quinoa, lardons et légumes",
                 "ingredients": [
                     {
-                        "nom": "🌾 Quinoa cuit",
-                        "quantite": "180g"
+                        "nom": "🌾 Boulgour",
+                        "quantite": "60g"
                     },
                     {
                         "nom": "🥒 Concombre",
@@ -562,7 +734,7 @@
                     },
                     {
                         "nom": "🌰 Amandes",
-                        "quantite": "20g"
+                        "quantite": "25g"
                     },
                     {
                         "nom": "🍌 Banane",
@@ -653,161 +825,6 @@
             "Collation du soir": "1 portion de nuit protéine shake (1 dosette dans 200ml de lait écrémé)"
         }
     },
-    "jeudi": {
-        "v1": {
-            "Petit-déjeuner": {
-                "titre": "🥞 Pancakes protéinés",
-                "ingredients": [
-                    {
-                        "nom": "🥄 Poudre de pancakes au collagène Prozis",
-                        "quantite": "2 mesures"
-                    },
-                    {
-                        "nom": "🍌 Banane",
-                        "quantite": "1"
-                    },
-                    {
-                        "nom": "🍯 Miel",
-                        "quantite": "1 cuillère à soupe"
-                    }
-                ],
-                "instructions": [
-                    "Mélangez tous les ingrédients dans un bol jusqu'à obtenir une pâte lisse.",
-                    "Faites chauffer une poêle antiadhésive et versez-y la pâte à pancakes en formant des petits cercles.",
-                    "Faites cuire les pancakes jusqu'à ce qu'ils soient dorés des deux côtés.",
-                    "Servez les pancakes chauds avec un peu de miel."
-                ]
-            },
-            "Déjeuner": {
-                "titre": "🥗 Bol de quinoa, légumes et poulet",
-                "ingredients": [
-                    {
-                        "nom": "🍗 Filet de poulet",
-                        "quantite": "150g"
-                    },
-                    {
-                        "nom": "🌾 Boulgour cuit",
-                        "quantite": "100g"
-                    },
-                    {
-                        "nom": "🥬 Laitue",
-                        "quantite": "50g"
-                    },
-                    {
-                        "nom": "🥒 Concombre",
-                        "quantite": "1/2"
-                    },
-                    {
-                        "nom": "🫑 Poivron rouge",
-                        "quantite": "1/2"
-                    },
-                    {
-                        "nom": "🧴 Vinaigrette légère",
-                        "quantite": "2 cuillères à soupe"
-                    }
-                ],
-                "instructions": [
-                    "Coupez le filet de poulet grillé en dés.",
-                    "Préparez un bol avec le quinoa cuit comme base.",
-                    "Ajoutez le poulet, la laitue, le concombre et le poivron rouge coupés en morceaux.",
-                    "Arrosez de vinaigrette légère et mélangez bien.",
-                    "Servez frais."
-                ]
-            },
-            "Goûter": {
-                "titre": "🥤 Smoothie aux baies et aux amandes",
-                "ingredients": [
-                    {
-                        "nom": "🥛 Lait d'amande",
-                        "quantite": "200ml"
-                    },
-                    {
-                        "nom": "🫐 Fruits rouges",
-                        "quantite": "100g"
-                    },
-                    {
-                        "nom": "🌰 Amandes",
-                        "quantite": "25g"
-                    },
-                    {
-                        "nom": "🥄 Protéine en poudre (saveur fruits rouges)",
-                        "quantite": "1 mesure"
-                    }
-                ],
-                "instructions": [
-                    "Placez tous les ingrédients dans un mixeur.",
-                    "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
-                    "Servez frais."
-                ]
-            },
-            "Dîner": {
-                "titre": "🌮 Tacos au poisson",
-                "ingredients": [
-                    {
-                        "nom": "🐟 Filet de poisson blanc",
-                        "quantite": "150g"
-                    },
-                    {
-                        "nom": "🌕 Tortillas de maïs",
-                        "quantite": "2"
-                    },
-                    {
-                        "nom": "🥬 Chou rouge",
-                        "quantite": "1/4"
-                    },
-                    {
-                        "nom": "🥕 Carottes",
-                        "quantite": "1"
-                    },
-                    {
-                        "nom": "🥑 Avocat",
-                        "quantite": "1/2"
-                    },
-                    {
-                        "nom": "🍋 Jus de citron vert",
-                        "quantite": "1 cuillère à soupe"
-                    },
-                    {
-                        "nom": "🌿 Coriandre fraîche",
-                        "quantite": "1 cuillère à soupe"
-                    }
-                ],
-                "instructions": [
-                    "Cuisez le filet de poisson à la vapeur ou au four jusqu'à ce qu'il soit bien cuit.",
-                    "Écrasez l'avocat avec le jus de citron vert pour préparer une guacamole.",
-                    "Râpez les carottes et émincez le chou rouge.",
-                    "Faites réchauffer les tortillas de maïs.",
-                    "Garnissez les tortillas avec le poisson cuit, la guacamole, les carottes râpées, le chou rouge et la coriandre fraîche.",
-                    "Enroulez les tacos et servez-les chauds."
-                ]
-            },
-            "Collation du soir": {
-                "titre": "🍶 Skyr aux noix",
-                "ingredients": [
-                    {
-                        "nom": "🍶 Skyr",
-                        "quantite": "150g"
-                    },
-                    {
-                        "nom": "🌰 Mélange de noix",
-                        "quantite": "25g"
-                    },
-                    {
-                        "nom": "🍯 Miel",
-                        "quantite": "1 cuillère à soupe"
-                    }
-                ]
-            }
-        },
-        "v2": {
-            "Petit-déjeuner": "150g de Skyr avec 1 poignée de baies, 1 cuillère à soupe de graines de lin et 1 cuillère à café de miel",
-            "Collation du matin": "1 pomme",
-            "Déjeuner": "Sandwich au thon (100g de thon, 2 tranches de pain de blé entier, laitue, tomate, moutarde)",
-            "Goûter": "1 barre protéinée (20g)",
-            "Dîner": "Steak grillé (120g), 140g de patates douces rôties, 100g de légumes vapeur",
-            "Collation du soir": "1 tasse de lait écrémé (250ml)"
-        }
-    },
     "vendredi": {
         "v1": {
             "Petit-déjeuner": {
@@ -842,7 +859,7 @@
                 "ingredients": [
                     {
                         "nom": "🍶 Skyr",
-                        "quantite": "150 g"
+                        "quantite": "100 g"
                     },
                     {
                         "nom": "🥭 Fruits frais",
@@ -850,7 +867,7 @@
                     },
                     {
                         "nom": "🌰 Mélange de noix",
-                        "quantite": "20 g"
+                        "quantite": "10 g"
                     }
                 ],
                 "instructions": [
@@ -866,8 +883,8 @@
                 "titre": "🥗 Salade de quinoa et poulet",
                 "ingredients": [
                     {
-                        "nom": "🌾 Boulgour cuit",
-                        "quantite": "150 g"
+                        "nom": "🌾 Boulgour",
+                        "quantite": "60 g"
                     },
                     {
                         "nom": "🍗 Filet de poulet",
@@ -915,15 +932,11 @@
                     },
                     {
                         "nom": "🫐 Fruits rouges",
-                        "quantite": "100g"
+                        "quantite": "50g"
                     },
                     {
                         "nom": "🍌 Banane",
                         "quantite": "1"
-                    },
-                    {
-                        "nom": "🌰 Amandes",
-                        "quantite": "20g"
                     }
                 ],
                 "instructions": [
@@ -959,7 +972,7 @@
                     },
                     {
                         "nom": "🧴 Huile d'olive",
-                        "quantite": "2 cuillère à soupe"
+                        "quantite": "1 cuillère à soupe"
                     },
                     {
                         "nom": "🍋 Jus de citron",
@@ -989,8 +1002,8 @@
                         "quantite": "200 ml"
                     },
                     {
-                        "nom": "🧈 Beurre d'amande",
-                        "quantite": "1 cuillère à soupe"
+                        "nom": "🫐 Fruits rouges",
+                        "quantite": "50g"
                     },
                     {
                         "nom": "𓇢 Graines de chia",
@@ -1021,23 +1034,27 @@
                 "ingredients": [
                     {
                         "nom": "🍌 Banane",
-                        "quantite": "1"
+                        "quantite": "1/2"
                     },
                     {
                         "nom": "🥚 Œufs",
-                        "quantite": "2"
+                        "quantite": "1"
                     },
                     {
                         "nom": "🥣 Flocons d'avoine",
-                        "quantite": "30g"
+                        "quantite": "20g"
                     },
                     {
-                        "nom": "🥄 Protéine en poudre (saveur vanille)",
-                        "quantite": "1 portion"
+                        "nom": "🍇 Brunoise de fruits",
+                        "quantite": "40g"
                     },
                     {
-                        "nom": "🥥 Huile de coco",
-                        "quantite": "1 cuillère à café"
+                        "nom": "🍊 Orange",
+                        "quantite": "2"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
                     }
                 ],
                 "instructions": [
@@ -1047,7 +1064,8 @@
                     "Faites chauffer une poêle antiadhésive à feu moyen et ajoutez l'huile de coco.",
                     "Versez environ 2 cuillères à soupe de pâte dans la poêle pour former chaque pancake.",
                     "Faites cuire les pancakes pendant 2 à 3 minutes de chaque côté jusqu'à ce qu'ils soient bien dorés.",
-                    "Servez les pancakes chauds avec des tranches de banane et un filet de sirop d'érable."
+                    "Servez les pancakes chauds avec des tranches de banane et une cuillère de miel.",
+                    "Pressez les oranges pour vous faire un jus"
                 ]
             },
             "Déjeuner": {
@@ -1055,7 +1073,7 @@
                 "ingredients": [
                     {
                         "nom": "🌕 Tortillas de maïs",
-                        "quantite": "2"
+                        "quantite": "1"
                     },
                     {
                         "nom": "🍗 Filet de poulet",
@@ -1080,6 +1098,10 @@
                     {
                         "nom": "🌿 Coriandre fraîche",
                         "quantite": "1 cuillère à soupe"
+                    },
+                    {
+                        "nom": "🥬 Chou rouge",
+                        "quantite": "1/4"
                     },
                     {
                         "nom": "🍋 Jus de citron",
@@ -1107,10 +1129,6 @@
                     {
                         "nom": "🍓 Framboises",
                         "quantite": "100g"
-                    },
-                    {
-                        "nom": "🌰 Amandes",
-                        "quantite": "20g"
                     },
                     {
                         "nom": "🥛 Lait d'amande",
@@ -1308,10 +1326,6 @@
                         "quantite": "200ml"
                     },
                     {
-                        "nom": "🧈 Beurre d'amande",
-                        "quantite": "1 cuillère à soupe"
-                    },
-                    {
                         "nom": "🥄 Protéine en poudre (saveur vanille)",
                         "quantite": "1 dose"
                     },
@@ -1362,7 +1376,7 @@
                 "ingredients": [
                     {
                         "nom": "🍶 Skyr",
-                        "quantite": "150g"
+                        "quantite": "100g"
                     },
                     {
                         "nom": "🍌 Banane",
