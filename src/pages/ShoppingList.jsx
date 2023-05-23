@@ -31,7 +31,7 @@ function ShoppingList() {
 
   useEffect(() => {
     allChecked ? setCheckedIngredients(sortedIngredients) : setCheckedIngredients([]);
-  }, [allChecked]);
+  }, [allChecked, sortedIngredients]);
 
   useEffect(() => {
     const sorted = [...ingredientsFromMenus].sort((a, b) => {
@@ -56,14 +56,13 @@ function ShoppingList() {
   const handleSearch = (event) => {
     const recherche = event.target.value.toLowerCase();
 
-    const filteredIngredients = sortedIngredientsSaved.filter(ingredient => ingredient.nom.toLowerCase().includes(recherche))
+    const filteredIngredients = [...sortedIngredientsSaved].filter(ingredient => ingredient.nom.toLowerCase().includes(recherche))
 
     if (filteredIngredients) setSortedIngredients(filteredIngredients)
 
     if (recherche === '')  setSortedIngredients(sortedIngredientsSaved)
   }
   
-
 
   return (
     <Container>
