@@ -38,7 +38,7 @@ function Repas(props) {
       <div className={`days flex flex-col justify-center py-6 sticky top-0 z-10 ${props.theme === "dark" ? "bg-darkmode" : "bg-white"}`}>
         <ToggleButtonGroup
           color='primary'
-          className='flex flex-wrap justify-center'
+          className='flex flex-wrap justify-center py-3'
           exclusive
           value={selectedDay}
           onChange={changeDay}
@@ -54,7 +54,7 @@ function Repas(props) {
             </ToggleButton>
           ))}
         </ToggleButtonGroup>
-        <ToggleButtonGroup
+        {/* <ToggleButtonGroup
           color='primary'
           className='flex flex-wrap justify-center mt-3'
           exclusive
@@ -76,7 +76,7 @@ function Repas(props) {
           >
             V2 🔜
           </ToggleButton>
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
       </div>
       <div className='menu container mx-auto'>
         {Object.entries(menu[selectedDay][selectedVersion]).map(([periode, repas], index) => (
