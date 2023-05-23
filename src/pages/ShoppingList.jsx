@@ -94,7 +94,7 @@ function ShoppingList() {
           ))}
         </div>
       </div>
-      <List dense>
+      <List dense className="mb-5">
         {sortedCheckedIngredients?.map((ingredient, index) => (
           <ListItem
             className='infos-ingredients'

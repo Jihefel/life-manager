@@ -709,6 +709,10 @@
                         "quantite": "10"
                     },
                     {
+                        "nom": "🥚 Œufs",
+                        "quantite": "1"
+                    },
+                    {
                         "nom": "🍋 Jus de citron",
                         "quantite": "1 cuillère à soupe"
                     },
@@ -722,6 +726,7 @@
                     }
                 ],
                 "instructions": [
+                    "Cuire l'oeuf dur et les lardons",
                     "Préparez tous les légumes en les coupant en dés.",
                     "Mélangez le quinoa cuit avec les légumes dans un bol.",
                     "Ajoutez les olives noires.",
@@ -739,7 +744,7 @@
                     },
                     {
                         "nom": "🌰 Amandes",
-                        "quantite": "25g"
+                        "quantite": "15g"
                     },
                     {
                         "nom": "🍌 Banane",
