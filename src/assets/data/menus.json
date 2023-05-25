@@ -173,7 +173,7 @@
                 ],
                 "instructions": [
                     "Dans un bol, versez le Skyr",
-                    "Coupez la moitié de la banane en rondelles et ajoutez-les au Skyr",
+                    "Coupez la moitié de banane en rondelles et ajoutez-les au Skyr",
                     "Saupoudrez une cuillère à soupe de graines de chia sur le dessus.",
                     "Ajoutez les pépites de chocolat sur le mélange.",
                     "Mélangez délicatement tous les ingrédients ensemble jusqu'à ce qu'ils soient bien répartis."
@@ -348,7 +348,7 @@
                     }
                 ],
                 "instructions": [
-                    "Dans un mixeur, combinez la banane, les flocons d'avoine, le lait d'amande, la protéine en poudre et le beurre d'amande.",
+                    "Dans un mixeur, combinez la banane, les flocons d'avoine, le lait d'amande, la protéine en poudre, le beurre d'amande et le miel.",
                     "Mixez jusqu'à obtenir une consistance lisse.",
                     "Ajoutez de la glace pilée et mélangez à nouveau.",
                     "Versez dans un verre et dégustez."
@@ -425,7 +425,7 @@
                     }
                 ],
                 "instructions": [
-                    "Dans un bol, mélanger le fromage blanc avec les fruits rouges.",
+                    "Dans un bol, mélanger le skyr avec les fruits rouges.",
                     "Ajouter une cuillère à café de miel pour sucrer légèrement.",
                     "Mélanger délicatement.",
                     "Déguster frais."
@@ -495,7 +495,7 @@
                 "ingredients": [
                     {
                         "nom": "🥄 Poudre de pancakes au collagène Prozis",
-                        "quantite": "2 mesures"
+                        "quantite": "4 mesures"
                     },
                     {
                         "nom": "🍌 Banane",
@@ -511,10 +511,13 @@
                     }
                 ],
                 "instructions": [
-                    "Mélangez tous les ingrédients dans un bol jusqu'à obtenir une pâte lisse.",
-                    "Faites chauffer une poêle antiadhésive et versez-y la pâte à pancakes en formant des petits cercles.",
-                    "Faites cuire les pancakes jusqu'à ce qu'ils soient dorés des deux côtés.",
-                    "Servez les pancakes chauds avec un peu de miel."
+                    "Dans un bol, mélangez la poudre de pancakes au collagène avec de l'eau selon les instructions sur l'emballage. Assurez-vous d'obtenir une consistance lisse et épaisse.",
+                    "Préchauffez une poêle antiadhésive à feu moyen.",
+                    "Versez environ la moitié de tasse de pâte à pancakes dans la poêle préchauffée pour former un pancake. Étalez légèrement la pâte pour obtenir une forme ronde.",
+                    "Disposez quelques rondelles de banane sur le dessus du pancake cru.",
+                    "Laissez cuire le pancake jusqu'à ce que des bulles se forment à la surface, puis retournez-le et faites-le cuire de l'autre côté jusqu'à ce qu'il soit doré.",
+                    "Répétez les étapes 3 à 5 avec le reste de la pâte et les rondelles de banane.",
+                    "Garnissez les pancakes avec une cuillère à café de miel et une cuillère à café de beurre d'amande sur le dessus."
                 ]
             },
             "Déjeuner": {
@@ -628,13 +631,20 @@
                         "quantite": "150g"
                     },
                     {
-                        "nom": "🌰 Mélange de noix",
-                        "quantite": "10g"
+                        "nom": "🌰 Amandes",
+                        "quantite": "5g"
                     },
                     {
                         "nom": "🍯 Miel",
                         "quantite": "1 cuillère à soupe"
                     }
+                ],
+                "instructions": [
+                    "Dans un bol, versez les 150g de Skyr.",
+                    "Ajoutez les 5g d'amandes sur le dessus du Skyr.",
+                    "Arrosez le Skyr et les amandes d'une cuillère à soupe de miel pour sucrer légèrement.",
+                    "Faites réchauffer les tortillas de maïs.",
+                    "Mélangez délicatement le Skyr, les amandes et le miel pour bien répartir les saveurs."
                 ]
             }
         },
@@ -858,7 +868,7 @@
                     }
                 ],
                 "instructions": [
-                    "Dans un blender, ajoutez la banane coupée en morceaux.",
+                    "Dans un blender, ajoutez les fruits en morceaux.",
                     "Ajoutez le lait d'amande, la protéine en poudre et les flocons d'avoine.",
                     "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
                     "Versez le smoothie dans un verre et dégustez-le."
@@ -884,7 +894,6 @@
                     "Dans un bol, ajoutez le Skyr.",
                     "Ajoutez les fruits frais coupés (morceaux de mangue, tranches de kiwi) sur le yaourt.",
                     "Ajoutez les noix concassées (amandes, noix de cajou) sur les fruits.",
-                    "Arrosez le tout d'une cuillère à café de miel.",
                     "Mélangez délicatement tous les ingrédients.",
                     "Dégustez ce Skyr aux fruits et aux noix en guise de collation riche en protéines et en saveurs."
                 ]
@@ -1022,7 +1031,7 @@
                 ],
                 "instructions": [
                     "Dans un blender, ajoutez la banane coupée en morceaux.",
-                    "Ajoutez le lait d'amande, le beurre d'amande et les graines de chia.",
+                    "Ajoutez le lait d'amande, les fruits et les graines de chia.",
                     "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
                     "Versez le smoothie dans un verre et dégustez-le comme collation légère avant de vous coucher."
                 ]
@@ -1251,7 +1260,7 @@
                     }
                 ],
                 "instructions": [
-                    "Dans un mixeur, ajoutez la banane, les framboises, le lait d'amande, la protéine en poudre, les flocons d'avoine et les graines de chia.",
+                    "Dans un mixeur, ajoutez les framboises, le lait d'amande, la protéine en poudre et les flocons d'avoine.",
                     "Mixez jusqu'à obtenir une consistance lisse et crémeuse.",
                     "Versez le smoothie dans un verre ou un bol.",
                     "Dégustez ce smoothie protéiné aux fruits pour un petit-déjeuner énergétique."
@@ -1265,20 +1274,13 @@
                         "quantite": "100g"
                     },
                     {
-                        "nom": "🫐 Fruits rouges",
-                        "quantite": "40g"
-                    },
-                    {
                         "nom": "🧈 Beurre d'amande",
                         "quantite": "1 cuillère à soupe"
                     }
                 ],
                 "instructions": [
-                    "Préchauffez le four à 180°C (thermostat 6).",
-                    "Dans un saladier, mélangez l'oeuf, les flocons d'avoine, la courgette râpée, la carotte râpée, le fromage blanc, la levure chimique, le sel et le poivre.",
-                    "Répartissez la préparation dans des moules à muffins préalablement graissés ou recouverts de caissettes en papier.",
-                    "Enfournez pendant environ 20 minutes, jusqu'à ce que les muffins soient dorés et cuits à coeur.",
-                    "Laissez les muffins refroidir avant de les déguster."
+                    "Dans un bol, versez les 100g de Skyr.",
+                    "Ajoutez la cuillère de beurre d'amandes et les fruits rouges"
                 ]
             },
             "Déjeuner": {
@@ -1395,15 +1397,18 @@
                     {
                         "nom": "🌰 Mélange de noix",
                         "quantite": "10g"
+                    },
+                    {
+                        "nom": "🍯 Miel",
+                        "quantite": "1 cuillère à soupe"
                     }
                 ],
                 "instructions": [
                     "Dans un bol, ajoutez le Skyr nature.",
-                    "Ajoutez les fruits frais coupés (fraises, myrtilles, framboises) sur le yaourt.",
+                    "Ajoutez la banane.",
                     "Ajoutez les noix (amandes, noix de cajou) concassées sur les fruits.",
                     "Arrosez le tout d'une cuillère à café de miel.",
-                    "Mélangez délicatement tous les ingrédients.",
-                    "Dégustez ce Skyr aux fruits et aux noix en guise de collation riche en protéines et en saveurs."
+                    "Mélangez délicatement tous les ingrédients."
                 ]
             }
         },
