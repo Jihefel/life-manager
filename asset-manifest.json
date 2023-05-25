@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/life-manager/static/css/main.822342b4.css",
-    "main.js": "/life-manager/static/js/main.15089c1b.js",
+    "main.js": "/life-manager/static/js/main.c0af235e.js",
     "static/media/haut-corps.jpg": "/life-manager/static/media/haut-corps.c2836f54fb2fb5faab54.jpg",
     "static/media/corps-entier.jpg": "/life-manager/static/media/corps-entier.6b026be17bcff90a52c2.jpg",
     "static/media/bas-corps.jpg": "/life-manager/static/media/bas-corps.7412dc23d84b0c0e6419.jpg",
@@ -10,10 +10,10 @@
     "static/media/aldi.svg": "/life-manager/static/media/aldi.71f235ccf0c7df534254.svg",
     "index.html": "/life-manager/index.html",
     "main.822342b4.css.map": "/life-manager/static/css/main.822342b4.css.map",
-    "main.15089c1b.js.map": "/life-manager/static/js/main.15089c1b.js.map"
+    "main.c0af235e.js.map": "/life-manager/static/js/main.c0af235e.js.map"
   },
   "entrypoints": [
     "static/css/main.822342b4.css",
-    "static/js/main.15089c1b.js"
+    "static/js/main.c0af235e.js"
   ]
 }
