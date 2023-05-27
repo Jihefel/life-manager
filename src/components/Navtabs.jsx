@@ -1,5 +1,5 @@
-/* eslint-disable react-hooks/exhaustive-deps */import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { Tabs, Tab } from "@mui/material";
 // import { FaTasks } from "react-icons/fa";
 // import { RiAlarmWarningLine } from "react-icons/ri";
 import { GiMeal, GiMuscularTorso } from "react-icons/gi";

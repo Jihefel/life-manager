@@ -165,64 +165,15 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Routes>
-          <Route
-            exact
-            path='/'
-            element={
-              <Navtabs
-                value={value}
-                setValue={setValue}
-                handleChange={handleChange}
-                theme={theme.palette.mode}
-              />
-            }
-          >
-            <Route
-              exact
-              path='dashboard'
-              element={
-                <Dashboard
-                  theme={theme.palette.mode}
-                  jours={jours}
-                />
-              }
-            />
-            <Route
-              exact
-              path='menu'
-              element={
-                <Menu
-                  theme={theme.palette.mode}
-                  joursAbreges={joursAbreges}
-                  jours={jours}
-                />
-              }
-            />
-            <Route
-              exact
-              path='listedecourses'
-              element={<ShoppingList />}
-            />
-            <Route
-              exact
-              path='entrainements'
-              element={<Entrainements />}
-            />
-            <Route
-              exact
-              path='rappels'
-              element={<Rappels getDate={getDate} />}
-            />
-            <Route
-              exact
-              path='tasks'
-              element={<Tasks />}
-            />
+          <Route exact path='/' element={<Navtabs value={value} setValue={setValue} handleChange={handleChange} theme={theme.palette.mode} />}>
+            <Route exact path='dashboard' element={<Dashboard theme={theme.palette.mode} jours={jours} />} />
+            <Route exact path='menu' element={<Menu theme={theme.palette.mode} joursAbreges={joursAbreges} jours={jours} />} />
+            <Route exact path='listedecourses' element={<ShoppingList />} />
+            <Route exact path='entrainements' element={<Entrainements />} />
+            <Route exact path='rappels' element={<Rappels getDate={getDate} />} />
+            <Route exact path='tasks' element={<Tasks />} />
           </Route>
-          <Route
-            path='*'
-            element={<Error />}
-          />
+          <Route path='*' element={<Error />} />
         </Routes>
       </ThemeProvider>
     </>

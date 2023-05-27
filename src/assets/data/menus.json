@@ -185,7 +185,7 @@
                 "titre": "Omelette aux légumes (3 œufs, ½ poivron rouge, ½ oignon, 30g de fromage râpé)",
                 "ingredients": [
                     {
-                        "nom": "🥚 Œufs",
+                        "nom": "🥚 Oeufs",
                         "quantite": "3"
                     },
                     {
@@ -719,7 +719,7 @@
                         "quantite": "10"
                     },
                     {
-                        "nom": "🥚 Œufs",
+                        "nom": "🥚 Oeufs",
                         "quantite": "1"
                     },
                     {
@@ -1056,7 +1056,7 @@
                         "quantite": "1/2"
                     },
                     {
-                        "nom": "🥚 Œufs",
+                        "nom": "🥚 Oeufs",
                         "quantite": "1"
                     },
                     {

@@ -77,9 +77,10 @@ function ShoppingList() {
         <div className='searchbar mb-5'>
           <TextField
             id='outlined-controlled'
-            label='Recherche'
+            label='Rechercher un aliment'
             variant='outlined'
             onChange={handleSearch}
+            autoComplete="off"
           />
         </div>
         <div className='flex flex-wrap justify-center mb-5'>
@@ -89,7 +90,14 @@ function ShoppingList() {
               key={index}
               variant={sortedCheckedIngredients.includes(ingredient) ? "outlined" : "text"}
             >
-              {ingredient.nom}
+              {ingredient.nom === "Asperges" ? (
+              <>
+                <img src='https://img.icons8.com/color/48/null/asparagus.png' style={{ height: "1.1rem", width: "1.3rem" }} alt='Asperges' />
+                <span>&thinsp;Asperges</span>
+              </>
+            ) : (
+              ingredient.nom
+            )}
             </Button>
           ))}
         </div>
