@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from "react";
 // Components
 import Navtabs from "./components/Navtabs";
 import Error from "./pages/Error";
-import Repas from "./pages/Repas";
+import Menu from "./pages/Menu";
 import Dashboard from "./pages/Dashboard";
 import Entrainements from "./pages/Entrainements";
 import Rappels from "./pages/Rappels";
@@ -189,9 +189,9 @@ export default function App() {
             />
             <Route
               exact
-              path='repas'
+              path='menu'
               element={
-                <Repas
+                <Menu
                   theme={theme.palette.mode}
                   joursAbreges={joursAbreges}
                   jours={jours}

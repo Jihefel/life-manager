@@ -23,7 +23,7 @@ export default function Navtabs(props) {
   //NOTE - Values des onglets (props.value)
   const valueToPathMap = {
     0: { nom: "Tableau de bord", url: "/dashboard", icon: <MdDashboard /> },
-    1: { nom: "Repas", url: "/repas", icon: <GiMeal /> },
+    1: { nom: "Menu", url: "/menu", icon: <GiMeal /> },
     2: {
       nom: "Liste de courses",
       url: "/listedecourses",

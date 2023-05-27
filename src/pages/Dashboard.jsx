@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import menu from "../assets/data/menus.json";
 import { useState, useEffect } from "react";
 import Entrainements from "./Entrainements";
+import Repas from "../components/Repas";
 
 function Dashboard(props) {
   const jourActuel = useSelector((state) => state.whatDate.today);
@@ -21,7 +22,7 @@ function Dashboard(props) {
         setPeriodeRepas(periodesDesRepas[0]);
         break;
       // Collation du matin
-      case ((heureActuelle) > 10 || heureActuelle <= 12) && (heureActuelle <= 12 || (heureActuelle <= 12 && minuteActuelle <= 30)):
+      case heureActuelle > 10 && heureActuelle <= 12 && minuteActuelle < 30:
         collationAujourdhui ? setPeriodeRepas(periodesDesRepas[1]) : setPeriodeRepas(periodesDesRepas[0]);
         break;
       // Déjeuner
@@ -70,32 +71,7 @@ function Dashboard(props) {
         {repasActuel ? (
           <>
             <h2 className='mb-3'>{repasActuel[1].titre}</h2>
-            <h3 className='text-xl text-slate-400 underline'>Ingrédients</h3>
-            <ul>
-              {repasActuel[1].ingredients.map((ingr, index) => (
-                <li key={index + ingr.nom}>
-                  <span className='text-slate-500'>{ingr.quantite}</span>{" "}
-                  {ingr.nom === "Asperges" ? (
-                    <>
-                      <img
-                        src='https://img.icons8.com/color/48/null/asparagus.png'
-                        style={{ height: "1.1rem", width: "1.3rem" }}
-                        alt='Asperges'
-                      />
-                      <span>&thinsp;Asperges</span>
-                    </>
-                  ) : (
-                    ingr.nom
-                  )}
-                </li>
-              ))}
-            </ul>
-            <h3 className='text-xl text-slate-400 underline'>Instructions</h3>
-            <ol>
-              {repasActuel[1].instructions.map((etape, index) => (
-                <li key={index}>{etape}</li>
-              ))}
-            </ol>
+            <Repas repas={repasActuel[1]} />
           </>
         ) : null}
       </div>
