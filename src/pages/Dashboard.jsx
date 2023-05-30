@@ -18,11 +18,11 @@ function Dashboard(props) {
 
     switch (true) {
       // Petit-dejeuner
-      case heureActuelle >= 7 && heureActuelle <= 10:
+      case heureActuelle >= 7 && heureActuelle < 10:
         setPeriodeRepas(periodesDesRepas[0]);
         break;
       // Collation du matin
-      case heureActuelle > 10 && heureActuelle <= 12 && minuteActuelle < 30:
+      case (heureActuelle >= 10) && (heureActuelle < 12 || (heureActuelle === 12 && minuteActuelle <= 30)):
         collationAujourdhui ? setPeriodeRepas(periodesDesRepas[1]) : setPeriodeRepas(periodesDesRepas[0]);
         break;
       // Déjeuner
