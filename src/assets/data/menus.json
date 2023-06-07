@@ -36,38 +36,51 @@
                 ]
             },
             "Déjeuner": {
-                "titre": "🥗 Salade de poulet et quinoa",
+                "titre": "🍛 Poulet curry coco",
                 "ingredients": [
                     {
                         "nom": "🍗 Filet de poulet",
-                        "quantite": "150g"
+                        "quantite": "180g"
                     },
                     {
-                        "nom": "🌾 Boulgour",
-                        "quantite": "60g"
-                    },
-                    {
-                        "nom": "🥬 Laitue",
+                        "nom": "🍚 Riz",
                         "quantite": "50g"
                     },
                     {
-                        "nom": "🍅 Tomates cerises",
-                        "quantite": "100g"
-                    },
-                    {
-                        "nom": "🥒 Concombre",
+                        "nom": "🫑 Poivron rouge",
                         "quantite": "1/2"
                     },
                     {
-                        "nom": "🧴 Vinaigrette légère",
-                        "quantite": "1 cuillères à soupe"
+                        "nom": "🥥 Lait de coco",
+                        "quantite": "100ml"
+                    },
+                    {
+                        "nom": "🟢 Petits pois",
+                        "quantite": "50g"
+                    },
+                    {
+                        "nom": "🍲 Pâte de curry",
+                        "quantite": "1 cuillère à café"
+                    },
+                    {
+                        "nom": "🧅 Oignon",
+                        "quantite": "1/2"
+                    },
+                    {
+                        "nom": "🧄 Ail",
+                        "quantite": "1 gousse"
                     }
                 ],
                 "instructions": [
-                    "Coupez le poulet grillé en dés.",
-                    "Dans un saladier, mélangez le poulet, le quinoa, la laitue, les tomates cerises et le concombre.",
-                    "Ajoutez la vinaigrette légère et mélangez bien.",
-                    "Servez frais."
+                    "Faire cuire le riz basmati selon les instructions sur l'emballage.",
+                    "Dans une poêle à feu moyen, faire chauffer l'huile de coco. Ajouter l'oignon et l'ail, et faire revenir jusqu'à ce qu'ils deviennent translucides.",
+                    "Ajouter les dés de poulet dans la poêle et les faire dorer de tous les côtés.",
+                    "Ajouter la pâte de curry et mélanger pour enrober le poulet.",
+                    "Incorporer le lait de coco léger dans la poêle et laisser mijoter pendant quelques minutes.",
+                    "Ajouter les petits pois surgelés et les dés de poivron rouge. Poursuivre la cuisson pendant environ 5 minutes, jusqu'à ce que les légumes soient tendres.",
+                    "Assaisonner avec du sel et du poivre selon vos préférences.",
+                    "Servir le poulet au curry accompagné du riz basmati cuit.",
+                    "Garnir avec de la coriandre fraîche si désiré."
                 ]
             },
             "Goûter": {
@@ -79,7 +92,7 @@
                     },
                     {
                         "nom": "🥣 Brinta",
-                        "quantite": "50g"
+                        "quantite": "40g"
                     },
                     {
                         "nom": "🥥 Noix de coco rapée",
@@ -91,7 +104,7 @@
                     },
                     {
                         "nom": "🍇 Brunoise de fruits",
-                        "quantite": "40g"
+                        "quantite": "50g"
                     },
                     {
                         "nom": "🥛 Lait d'amande",
@@ -161,10 +174,6 @@
                     {
                         "nom": "🍌 Banane",
                         "quantite": "1/2"
-                    },
-                    {
-                        "nom": "𓇢 Graines de chia",
-                        "quantite": "1 cuillère à soupe"
                     },
                     {
                         "nom": "🟤 Pépites de chocolat",
@@ -503,11 +512,7 @@
                     },
                     {
                         "nom": "🍯 Miel",
-                        "quantite": "0.33 cuillère à soupe (1 c.c.)"
-                    },
-                    {
-                        "nom": "🧈 Beurre d'amande",
-                        "quantite": "0.33 cuillère à soupe (1 c.c.)"
+                        "quantite": "1 cuillère à soupe"
                     }
                 ],
                 "instructions": [
@@ -521,43 +526,40 @@
                 ]
             },
             "Déjeuner": {
-                "titre": "🥗 Bol de quinoa, légumes et poulet",
+                "titre": "🥪 Sandwich à l'omelette",
                 "ingredients": [
                     {
-                        "nom": "🍗 Filet de poulet",
-                        "quantite": "150g"
+                        "nom": "🥚 Oeufs",
+                        "quantite": "4"
                     },
                     {
-                        "nom": "🌾 Boulgour",
-                        "quantite": "60g"
+                        "nom": "🍃 Epinards",
+                        "quantite": "40g"
                     },
                     {
-                        "nom": "🥬 Laitue",
-                        "quantite": "50g"
+                        "nom": "🍅 Tomates cerises",
+                        "quantite": "40g"
                     },
                     {
-                        "nom": "🥒 Concombre",
-                        "quantite": "1/2"
+                        "nom": "🥓 Lardons",
+                        "quantite": "100g"
                     },
                     {
-                        "nom": "🫑 Poivron rouge",
-                        "quantite": "1/2"
-                    },
-                    {
-                        "nom": "🧴 Vinaigrette légère",
-                        "quantite": "1 cuillères à soupe"
+                        "nom": "🍞 Pain complet",
+                        "quantite": "100g"
                     }
                 ],
                 "instructions": [
-                    "Coupez le filet de poulet grillé en dés.",
-                    "Préparez un bol avec le quinoa cuit comme base.",
-                    "Ajoutez le poulet, la laitue, le concombre et le poivron rouge coupés en morceaux.",
-                    "Arrosez de vinaigrette légère et mélangez bien.",
-                    "Servez frais."
+                    "Dans un bol, battre les œufs avec du sel et du poivre.",
+                    "Faire cuire les œufs dans une poêle antiadhésive jusqu'à ce qu'ils soient bien cuits.",
+                    "Dans une autre poêle, faire revenir les lardons jusqu'à ce qu'ils soient croustillants.",
+                    "Ajouter les épinards et les tomates cerise dans la poêle avec les lardons et faire sauter légèrement jusqu'à ce que les épinards soient légèrement ramollis.",
+                    "Assembler le sandwich en plaçant l'omelette entre les tranches de pain complet.",
+                    "Déguster ce délicieux sandwich à l'omelette."
                 ]
             },
             "Goûter": {
-                "titre": "🥤 Smoothie aux baies et aux amandes",
+                "titre": "🥤 Smoothie aux baies",
                 "ingredients": [
                     {
                         "nom": "🥛 Lait d'amande",
@@ -566,10 +568,6 @@
                     {
                         "nom": "🫐 Fruits rouges",
                         "quantite": "100g"
-                    },
-                    {
-                        "nom": "🌰 Amandes",
-                        "quantite": "15g"
                     },
                     {
                         "nom": "🥄 Protéine en poudre (saveur fruits rouges)",
@@ -624,15 +622,11 @@
                 ]
             },
             "Collation du soir": {
-                "titre": "🍶 Skyr aux noix",
+                "titre": "🍶 Skyr au miel",
                 "ingredients": [
                     {
                         "nom": "🍶 Skyr",
                         "quantite": "150g"
-                    },
-                    {
-                        "nom": "🌰 Amandes",
-                        "quantite": "5g"
                     },
                     {
                         "nom": "🍯 Miel",
@@ -641,10 +635,8 @@
                 ],
                 "instructions": [
                     "Dans un bol, versez les 150g de Skyr.",
-                    "Ajoutez les 5g d'amandes sur le dessus du Skyr.",
-                    "Arrosez le Skyr et les amandes d'une cuillère à soupe de miel pour sucrer légèrement.",
-                    "Faites réchauffer les tortillas de maïs.",
-                    "Mélangez délicatement le Skyr, les amandes et le miel pour bien répartir les saveurs."
+                    "Arrosez le Skyr d'une cuillère à soupe de miel pour sucrer légèrement.",
+                    "Mélangez délicatement le Skyr et le miel pour bien répartir les saveurs."
                 ]
             }
         },
@@ -899,43 +891,43 @@
                 ]
             },
             "Déjeuner": {
-                "titre": "🥗 Salade de quinoa et poulet",
+                "titre": "🍗 Poulet au citron avec skyr et épinards à la crème",
                 "ingredients": [
                     {
-                        "nom": "🌾 Boulgour",
-                        "quantite": "60 g"
-                    },
-                    {
                         "nom": "🍗 Filet de poulet",
-                        "quantite": "150 g"
+                        "quantite": "200g"
                     },
                     {
-                        "nom": "🥒 Concombre",
-                        "quantite": "1/2"
-                    },
-                    {
-                        "nom": "🍅 Tomate",
-                        "quantite": "1"
-                    },
-                    {
-                        "nom": "🫒 Olives noires",
-                        "quantite": "10"
+                        "nom": "🍶 Skyr",
+                        "quantite": "100g"
                     },
                     {
                         "nom": "🍋 Jus de citron",
+                        "quantite": "1"
+                    },
+                    {
+                        "nom": "🌿 Estragon",
                         "quantite": "1 cuillère à soupe"
                     },
                     {
-                        "nom": "🧴 Huile d'olive",
-                        "quantite": "1 cuillère à soupe"
+                        "nom": "🍃 Epinards",
+                        "quantite": "200g"
+                    },
+                    {
+                        "nom": "🍚 Riz",
+                        "quantite": "50g"
                     }
                 ],
                 "instructions": [
-                    "Dans un bol, mélangez le quinoa cuit avec le blanc de poulet coupé en dés.",
-                    "Ajoutez le concombre coupé en tranches, la tomate coupée en dés, les olives noires et la feta émiettée.",
-                    "Arrosez la salade avec le jus de citron et l'huile d'olive.",
-                    "Mélangez tous les ingrédients jusqu'à ce qu'ils soient bien enrobés de la vinaigrette.",
-                    "Dégustez cette savoureuse salade de quinoa et poulet qui vous apportera des protéines, des légumes et des saveurs fraîches."
+                    "Faire cuire le filet de poulet selon ta préférence.",
+                    "Dans un bol, mélanger le skyr avec le jus de citron et l'estragon pour préparer la sauce au citron.",
+                    "Faire chauffer les épinards à la crème dans une casserole jusqu'à ce qu'ils soient chauds.",
+                    "Faire cuire le riz basmati selon les instructions sur l'emballage.",
+                    "Dans une assiette, disposer les épinards à la crème.",
+                    "Ajouter le filet de poulet cuit par-dessus.",
+                    "Verser la sauce au citron (skyr + jus de citron + estragon) sur le poulet.",
+                    "Servir avec une portion de riz basmati.",
+                    "Déguster ce délicieux repas !"
                 ]
             },
             "Goûter": {
