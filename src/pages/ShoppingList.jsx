@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import menus from "../assets/data/menus.json";
 import { Button, List, ListItem, ListItemButton, ListItemText, Checkbox } from "@mui/material";
 import { Container } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { setSortedCheckedIngredients } from "../redux/features/ingredients/selectedIngredientsSlice";
 import { TextField } from "@mui/material";
+import useComputeIngredientsQty from "../hooks/useComputeIngredientsQty";
+import AspergesIngredient from "../components/AspergesIngredient";
 
 function ShoppingList() {
   const [allChecked, setAllChecked] = useState(false);
@@ -16,6 +17,8 @@ function ShoppingList() {
   const ingredientsFromMenus = useSelector((state) => state.selectedIngredients.ingredientsFromMenus);
 
   const dispatch = useDispatch();
+
+  useComputeIngredientsQty();
 
   const handleButtonClick = (ingredient) => {
     if (checkedIngredients.includes(ingredient)) {
@@ -52,62 +55,41 @@ function ShoppingList() {
     dispatch(setSortedCheckedIngredients(sorted));
   }, [checkedIngredients]);
 
-
   const handleSearch = (event) => {
     const recherche = event.target.value.toLowerCase();
 
-    const filteredIngredients = [...sortedIngredientsSaved].filter(ingredient => ingredient.nom.toLowerCase().includes(recherche))
+    const filteredIngredients = [...sortedIngredientsSaved].filter((ingredient) => ingredient.nom.toLowerCase().includes(recherche));
 
-    if (filteredIngredients) setSortedIngredients(filteredIngredients)
+    if (filteredIngredients) setSortedIngredients(filteredIngredients);
 
-    if (recherche === '')  setSortedIngredients(sortedIngredientsSaved)
-  }
-  
+    if (recherche === "") setSortedIngredients(sortedIngredientsSaved);
+  };
 
   return (
     <Container>
-      <div className='ingredients flex flex-col flex-wrap items-center mt-12'>
-        <div className='mb-4'>
-          <Checkbox
-            checked={allChecked}
-            onChange={changeAll}
-          />
+      <div className="ingredients flex flex-col flex-wrap items-center mt-12">
+        <div className="mb-4">
+          <Checkbox checked={allChecked} onChange={changeAll} />
           <span>Tous</span>
         </div>
-        <div className='searchbar mb-5'>
-          <TextField
-            id='outlined-controlled'
-            label='Rechercher un aliment'
-            variant='outlined'
-            onChange={handleSearch}
-            autoComplete="off"
-          />
+        <div className="searchbar mb-5">
+          <TextField id="outlined-controlled" label="Rechercher un aliment" variant="outlined" onChange={handleSearch} autoComplete="off" />
         </div>
-        <div className='flex flex-wrap justify-center mb-5'>
+        <div className="flex flex-wrap justify-center mb-5">
           {sortedIngredients?.map((ingredient, index) => (
             <Button
               onClick={() => handleButtonClick(ingredient)}
               key={index}
               variant={sortedCheckedIngredients.includes(ingredient) ? "outlined" : "text"}
             >
-              {ingredient.nom === "Asperges" ? (
-              <>
-                <img src='https://img.icons8.com/color/48/null/asparagus.png' style={{ height: "1.1rem", width: "1.3rem" }} alt='Asperges' />
-                <span>&thinsp;Asperges</span>
-              </>
-            ) : (
-              ingredient.nom
-            )}
+              {ingredient.nom === "Asperges" ? <AspergesIngredient /> : ingredient.nom}
             </Button>
           ))}
         </div>
       </div>
       <List dense className="mb-5">
         {sortedCheckedIngredients?.map((ingredient, index) => (
-          <ListItem
-            className='infos-ingredients'
-            key={index + " " + ingredient.nom}
-          >
+          <ListItem className="infos-ingredients" key={index + " " + ingredient.nom}>
             <ListItemButton>
               <ListItemText>
                 {ingredient.nom} - {ingredient.quantite.valeur} {ingredient.quantite.unite}

@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useSelector } from "react-redux";
-import { HiOutlineRefresh } from "react-icons/hi";
 import { Button } from "@mui/material";
 import { isMobile } from "react-device-detect";
 import { initializeApp } from "firebase/app";
